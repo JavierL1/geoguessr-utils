@@ -1,6 +1,7 @@
 # /// script
 # dependencies = [
 #     "opencv-python",
+#     "numpy",
 # ]
 # ///
 
@@ -9,6 +10,8 @@ import os
 import cv2
 import sys
 import time
+import json
+import numpy as np
 
 def parse_time_in_seconds(hours: int, minutes: int, seconds: int) -> int | None:
     if (
@@ -23,6 +26,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Fast discovery of Geoguessr score screens.")
     parser.add_argument("-v", "--video", required=True, help="Path to video file")
     parser.add_argument("-o", "--output", required=True, help="Output directory for saved frames")
+    parser.add_argument("-c", "--config", default="config.json", help="Path to config.json file")
     
     parser.add_argument(
         "--start-time", type=int, nargs=3, metavar=("HH", "MM", "SS"), 
@@ -33,40 +37,80 @@ def parse_args():
         default=None, help="End time in hours, minutes, seconds"
     )
     
-    parser.add_argument("--roi-left", type=int, nargs=4, default=[310, 115, 100, 60], help="Left score ROI")
-    parser.add_argument("--roi-right", type=int, nargs=4, default=[1510, 115, 100, 60], help="Right score ROI")
     return parser.parse_args()
 
-def is_score_screen(frame, roi_left, roi_right) -> bool:
+def is_score_screen(frame, roi_left, roi_right, roi_center) -> bool:
     x1, y1, w1, h1 = roi_left
     x2, y2, w2, h2 = roi_right
+    xc, yc, wc, hc = roi_center
     
     # Extract ROIs
     left_crop = frame[y1:y1+h1, x1:x1+w1]
     right_crop = frame[y2:y2+h2, x2:x2+w2]
+    center_crop = frame[yc:yc+hc, xc:xc+wc]
     
     # Bounds Safety Check
-    if left_crop.size == 0 or right_crop.size == 0:
+    if left_crop.size == 0 or right_crop.size == 0 or center_crop.size == 0:
         frame_h, frame_w = frame.shape[:2]
         raise ValueError(
             f"\nROI is out of bounds! Video resolution is {frame_w}x{frame_h}.\n"
-            f"Left ROI: {roi_left} | Right ROI: {roi_right}\n"
-            f"Please adjust your --roi-left and --roi-right arguments."
+            f"Left ROI: {roi_left} | Right ROI: {roi_right} | Center ROI: {roi_center}\n"
+            f"Please adjust your config.json."
         )
     
     gray_left = cv2.cvtColor(left_crop, cv2.COLOR_BGR2GRAY)
     gray_right = cv2.cvtColor(right_crop, cv2.COLOR_BGR2GRAY)
     
-    _, thresh_left = cv2.threshold(gray_left, 200, 255, cv2.THRESH_BINARY)
-    _, thresh_right = cv2.threshold(gray_right, 200, 255, cv2.THRESH_BINARY)
+    # 1. White Pixel Check 
+    _, thresh_white_left = cv2.threshold(gray_left, 200, 255, cv2.THRESH_BINARY)
+    _, thresh_white_right = cv2.threshold(gray_right, 200, 255, cv2.THRESH_BINARY)
     
-    left_white_ratio = cv2.countNonZero(thresh_left) / (w1 * h1)
-    right_white_ratio = cv2.countNonZero(thresh_right) / (w2 * h2)
+    left_white_ratio = cv2.countNonZero(thresh_white_left) / (w1 * h1)
+    right_white_ratio = cv2.countNonZero(thresh_white_right) / (w2 * h2)
     
-    return left_white_ratio > 0.05 and right_white_ratio > 0.05
+    # 2. Dark Background Check 
+    dark_mask_left = cv2.inRange(gray_left, 0, 100)
+    dark_mask_right = cv2.inRange(gray_right, 0, 100)
+    
+    left_dark_ratio = cv2.countNonZero(dark_mask_left) / (w1 * h1)
+    right_dark_ratio = cv2.countNonZero(dark_mask_right) / (w2 * h2)
+
+    # 3. Central Pill Check 
+    hsv_center = cv2.cvtColor(center_crop, cv2.COLOR_BGR2HSV)
+    
+    lower_green = np.array([35, 100, 100])
+    upper_green = np.array([85, 255, 255])
+    lower_purple = np.array([110, 50, 50])
+    upper_purple = np.array([160, 255, 255])
+    
+    green_mask = cv2.inRange(hsv_center, lower_green, upper_green)
+    purple_mask = cv2.inRange(hsv_center, lower_purple, upper_purple)
+    
+    green_ratio = cv2.countNonZero(green_mask) / (wc * hc)
+    purple_ratio = cv2.countNonZero(purple_mask) / (wc * hc)
+    
+    # --- Final Evaluation ---
+    has_white_text = left_white_ratio > 0.10 and right_white_ratio > 0.10
+    has_dark_bg = left_dark_ratio > 0.20 and right_dark_ratio > 0.20
+    
+    has_pill_colors = green_ratio > 0.02 and purple_ratio > 0.02
+    
+    return has_white_text and has_dark_bg and has_pill_colors
 
 def main():
     args = parse_args()
+    
+    # Load Configuration
+    try:
+        with open(args.config, 'r') as f:
+            config = json.load(f)
+        rois = config.get("ROIS", {})
+        roi_left = rois["discover_left"]
+        roi_right = rois["discover_right"]
+        roi_center = rois["discover_center"]
+    except (FileNotFoundError, KeyError) as e:
+        print(f"Configuration error: {e}", file=sys.stderr)
+        sys.exit(1)
     
     if not os.path.exists(args.output):
         os.makedirs(args.output)
@@ -116,12 +160,11 @@ def main():
         if not ret:
             break
             
-        detected = is_score_screen(frame, args.roi_left, args.roi_right)
+        detected = is_score_screen(frame, roi_left, roi_right, roi_center)
         
         if detected:
             if not is_collecting:
                 batch_count += 1
-                # Use \n to break out of the carriage-return progress line
                 print(f"\n[ {(current_frame_idx/fps):.2f}s ] Score screen detected! Started Batch {batch_count:03d} (0.25s interval)")
                 is_collecting = True
             
@@ -136,7 +179,7 @@ def main():
             
             current_frame_idx += search_step_frames
             
-        # Progress Update (Update CLI every 5 reads to avoid flickering)
+        # Progress Update 
         loop_iterations += 1
         if loop_iterations % 5 == 0:
             elapsed_real = time.time() - start_time_real
@@ -151,7 +194,6 @@ def main():
                 eta_sec = remaining_frames / (progress_frames / elapsed_real)
                 mins, secs = divmod(int(eta_sec), 60)
                 
-                # \r overwrites the current terminal line
                 sys.stdout.write(
                     f"\rProgress: {pct:5.1f}% | Batches: {batch_count} | Read: {read_fps:4.1f} fps | Speed: {video_speed:4.1f}x | ETA: {mins:02d}:{secs:02d} "
                 )

@@ -1,0 +1,100 @@
+{
+    "KNOWN_PLAYERS": [
+        "BLINKY",
+        "KAPTEN",
+        "CLEMENT",
+        "KFL",
+        "RADU C",
+        "CONSUS",
+        "MK",
+        "MANUELSON",
+        "STREFAN",
+        "KRATSOOO",
+        "MOO",
+        "JAMABI",
+        "BULGARIAENJ.",
+        "LENNLI",
+        "DEBRE",
+        "NOKSI"
+    ],
+    "ROIS": {
+        "discover_left": [
+            280,
+            59,
+            73,
+            26
+        ],
+        "discover_right": [
+            537,
+            59,
+            73,
+            26
+        ],
+        "discover_center": [
+            379,
+            67,
+            128,
+            30
+        ],
+        "overall_score_left": [
+            326,
+            11,
+            97,
+            36
+        ],
+        "overall_score_right": [
+            462,
+            11,
+            97,
+            36
+        ],
+        "round_score_left": [
+            197,
+            52,
+            184,
+            31
+        ],
+        "round_score_right": [
+            507,
+            52,
+            201,
+            31
+        ],
+        "distance_left": [
+            385,
+            72,
+            50,
+            20
+        ],
+        "distance_right": [
+            453,
+            72,
+            50,
+            20
+        ],
+        "health_left": [
+            156,
+            412,
+            194,
+            33
+        ],
+        "health_right": [
+            542,
+            412,
+            194,
+            33
+        ],
+        "username_left": [
+            207,
+            378,
+            154,
+            25
+        ],
+        "username_right": [
+            533,
+            378,
+            154,
+            25
+        ]
+    }
+}
