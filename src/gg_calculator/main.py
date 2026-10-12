@@ -7,9 +7,9 @@ from gg_calculator.database import engine
 from gg_calculator.repository import upsert_round_results
 from gg_calculator.models import Game, Round, RoundResult
 
-OLD_MAX_HEATH_POINTS = 6000
+OLD_MAX_HEALTH_POINTS = 6000
 OLD_MAX_ROUNDS = 10
-NEW_MAX_HEATH_POINTS = 5000
+NEW_MAX_HEALTH_POINTS = 5000
 
 
 def get_game_with_rounds(game_id: int) -> tuple[Game | None, List[Round]]:
@@ -69,13 +69,13 @@ def resolve_round(
     old_damage_taken_b = previous_round_result.old_damage_taken_b + old_damage_to_b
 
     old_game_over = (
-        old_damage_taken_a > OLD_MAX_HEATH_POINTS
-        or old_damage_taken_b > OLD_MAX_HEATH_POINTS
+        old_damage_taken_a > OLD_MAX_HEALTH_POINTS
+        or old_damage_taken_b > OLD_MAX_HEALTH_POINTS
         or (current_round.index + 1) >= OLD_MAX_ROUNDS
     )
     new_game_over = (
-        new_damage_taken_a > NEW_MAX_HEATH_POINTS
-        or new_damage_taken_b > NEW_MAX_HEATH_POINTS
+        new_damage_taken_a > NEW_MAX_HEALTH_POINTS
+        or new_damage_taken_b > NEW_MAX_HEALTH_POINTS
     )
 
     return RoundResult(
