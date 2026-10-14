@@ -1,8 +1,10 @@
 from typing import List
-from sqlmodel import Session
+
 from sqlalchemy.dialects.sqlite import insert as sqlite_insert
-from gg_calculator.database import engine
-from gg_calculator.models import RoundResult
+from sqlmodel import Session
+
+from geoguessr_utils.io.database import engine
+from geoguessr_utils.models import RoundResult
 
 
 def upsert_round_results(results: List[RoundResult]) -> None:
@@ -10,13 +12,10 @@ def upsert_round_results(results: List[RoundResult]) -> None:
     if not results:
         return
 
-    # Convert SQLModel instances into lists of raw dictionaries
     values_to_insert = [res.model_dump(exclude={"id"}) for res in results]
 
-    # Build SQLite INSERT statement
     stmt = sqlite_insert(RoundResult).values(values_to_insert)
 
-    # Columns to update if round_id conflicts
     update_dict = {
         "old_multi": stmt.excluded.old_multi,
         "new_multi_a": stmt.excluded.new_multi_a,
@@ -35,7 +34,6 @@ def upsert_round_results(results: List[RoundResult]) -> None:
         "old_damage_taken_b": stmt.excluded.old_damage_taken_b,
     }
 
-    # Add ON CONFLICT DO UPDATE clause
     upsert_stmt = stmt.on_conflict_do_update(
         index_elements=["round_id"],
         set_=update_dict,

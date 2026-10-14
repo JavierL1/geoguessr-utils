@@ -1,7 +1,7 @@
-from sqlmodel import SQLModel, create_engine, Session
+from sqlmodel import Session, SQLModel, create_engine
 
 # SQLite file placed in root or local path
-DATABASE_URL = "sqlite:///gg_calculator.db"
+DATABASE_URL = "sqlite:///geoguessr_data.db"
 
 # connect_args={"check_same_thread": False} allows SQLite to handle
 # concurrent requests across threads safely in local dev

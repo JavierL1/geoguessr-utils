@@ -1,11 +1,13 @@
 import sys
+from itertools import accumulate
 from math import floor
 from typing import List
-from itertools import accumulate
+
 from sqlmodel import Session
-from gg_calculator.database import engine
-from gg_calculator.repository import upsert_round_results
-from gg_calculator.models import Game, Round, RoundResult
+
+from geoguessr_utils.io.database import engine
+from geoguessr_utils.io.repository import upsert_round_results
+from geoguessr_utils.models import Game, Round, RoundResult
 
 OLD_MAX_HEALTH_POINTS = 6000
 OLD_MAX_ROUNDS = 10
@@ -104,7 +106,7 @@ def resolve_rounds(rounds: List[Round]) -> List[RoundResult]:
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: uv run python -m gg_calculator.get_game_rounds <game_id>")
+        print("Usage: uv run python -m geoguessr_utils.get_game_rounds <game_id>")
         sys.exit(1)
 
     try:

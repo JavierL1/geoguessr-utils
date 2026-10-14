@@ -1,9 +1,10 @@
-from typing import Optional, List
-from sqlmodel import SQLModel, Field, Relationship
+from typing import List, Optional
+
+from sqlmodel import Field, Relationship, SQLModel
 
 
 class Player(SQLModel, table=True):
-    __tablename__ = "players"
+    __tablename__ = "players"  # type: ignore
 
     id: Optional[int] = Field(default=None, primary_key=True)
     name: str
@@ -18,7 +19,7 @@ class Player(SQLModel, table=True):
 
 
 class Match(SQLModel, table=True):
-    __tablename__ = "matches"
+    __tablename__ = "matches"  # type: ignore
 
     id: Optional[int] = Field(default=None, primary_key=True)
     player_a: int = Field(foreign_key="players.id", ondelete="CASCADE")
@@ -31,7 +32,7 @@ class Match(SQLModel, table=True):
 
 
 class Game(SQLModel, table=True):
-    __tablename__ = "games"
+    __tablename__ = "games"  # type: ignore
 
     id: Optional[int] = Field(default=None, primary_key=True)
     type: str
@@ -49,7 +50,7 @@ class Game(SQLModel, table=True):
 
 
 class Round(SQLModel, table=True):
-    __tablename__ = "rounds"
+    __tablename__ = "rounds"  # type: ignore
 
     id: Optional[int] = Field(default=None, primary_key=True)
     index: int = Field(alias="_index", sa_column_kwargs={"name": "_index"})
@@ -67,7 +68,7 @@ class Round(SQLModel, table=True):
 
 
 class RoundResult(SQLModel, table=True):
-    __tablename__ = "round_result"
+    __tablename__ = "round_result"  # type: ignore
 
     id: Optional[int] = Field(default=None, primary_key=True)
     round_id: int = Field(foreign_key="rounds.id", ondelete="CASCADE", unique=True)

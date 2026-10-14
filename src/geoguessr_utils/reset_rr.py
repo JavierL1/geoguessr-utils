@@ -1,6 +1,6 @@
 from sqlmodel import SQLModel
-from gg_calculator.database import engine
-from gg_calculator.models import RoundResult
+from geoguessr_utils.database import engine
+from geoguessr_utils.models import RoundResult
 
 
 def reset_round_results_table():
