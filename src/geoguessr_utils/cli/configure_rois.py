@@ -1,11 +1,12 @@
 import argparse
+import json
 import os
 import sys
-from pathlib import Path
 
 import cv2
 
-from geoguessr_utils.config import ROI, ROI_NAMES, AppConfig
+SIDES = ["left", "right"]
+FEATURES = ["match_score", "round_score", "distance", "username", "health_points"]
 
 
 def main():
@@ -23,11 +24,11 @@ def main():
         help="Path to the snapshot image or video frame.",
     )
     parser.add_argument(
-        "-c",
-        "--config",
+        "-f",
+        "--filepath",
         type=str,
-        default="config.json",
-        help="Path to config.json file to update.",
+        default="configured_rois.json",
+        help="Path to json file to write the rois to.",
     )
     args = parser.parse_args()
 
@@ -40,7 +41,7 @@ def main():
         print(f"Error: Could not decode image '{args.image}'.", file=sys.stderr)
         sys.exit(1)
 
-    config = AppConfig.load(Path(args.config))
+    config = {}
 
     print("\n==================================================")
     print("          INTERACTIVE ROI CONFIGURATOR          ")
@@ -51,32 +52,37 @@ def main():
     print(" 3. Press ENTER or SPACE to confirm.")
     print(" 4. Press 'c' to skip an ROI and keep its existing value.\n")
 
-    for roi_name in ROI_NAMES:
-        window_name = f"Configuring [{roi_name}] - Press ENTER to save, 'c' to skip"
+    for side in SIDES:
+        config[side] = {}
 
-        x, y, w, h = cv2.selectROI(
-            window_name, image, showCrosshair=True, fromCenter=False
-        )
-        cv2.destroyAllWindows()
+        for feature in FEATURES:
+            roi_name = f"{side} {feature}"
+            window_name = f"Configuring [{roi_name}] - Press ENTER to save, 'c' to skip"
 
-        if w == 0 or h == 0:
-            print(f"Skipped '{roi_name}'.")
-            continue
-
-        config.ROIS[roi_name] = ROI(x=x, y=y, w=w, h=h)
-
-        print(f"Saved '{roi_name}': [ {x}, {y}, {w}, {h} ]")
-
-        cropped = image[y : y + h, x : x + w]
-        if cropped.size > 0:
-            cv2.imshow(f"Preview: {roi_name} (Any key for next)", cropped)
-            cv2.waitKey(400)
+            x, y, w, h = cv2.selectROI(
+                window_name, image, showCrosshair=True, fromCenter=False
+            )
             cv2.destroyAllWindows()
 
-    config.save(Path(args.config))
+            if w == 0 or h == 0:
+                print(f"Skipped '{roi_name}'.")
+                continue
+
+            config[side][feature] = [x, y, w, h]
+
+            print(f"Saved '{roi_name}': [ {x}, {y}, {w}, {h} ]")
+
+            cropped = image[y : y + h, x : x + w]
+            if cropped.size > 0:
+                cv2.imshow(f"Preview: {roi_name} (Any key for next)", cropped)
+                cv2.waitKey(400)
+                cv2.destroyAllWindows()
+
+    with open(args.filepath, "w") as f:
+        json.dump(config, f, indent=4)
 
     print("\n--------------------------------------------------")
-    print(f"All ROIs successfully updated and saved to '{args.config}'!")
+    print(f"All ROIs successfully updated and saved to '{args.filepath}'!")
     print("--------------------------------------------------")
 
 

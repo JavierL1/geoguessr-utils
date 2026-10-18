@@ -9,9 +9,9 @@ def prompt_player_data(player_side):
     print(f"\n--- {player_side.upper()} PLAYER ---")
 
     try:
-        overall_score = int(input("  Overall Score (int): ").strip())
+        match_score = int(input("  Overall Score (int): ").strip())
     except ValueError:
-        overall_score = 0
+        match_score = 0
 
     username = input("  Username (str): ").strip()
 
@@ -35,7 +35,7 @@ def prompt_player_data(player_side):
         health = 0
 
     return {
-        "overall_score": overall_score,
+        "match_score": match_score,
         "username": username,
         "round_score": round_score,
         "distance": {"amount": dist_amount, "unit": dist_unit},

@@ -26,11 +26,11 @@ def read_username(crop, debug_name=None) -> str:
     return pytesseract.image_to_string(image, config=CONFIG_USERNAME).strip()
 
 
-def read_overall_score(crop, debug_name=None) -> str:
+def read_match_score(crop, debug_name=None) -> str:
     return preprocess.detect_digit_by_geometry(crop, debug_name)
 
 
-def read_health(crop, debug_name=None) -> str:
+def read_health_points(crop, debug_name=None) -> str:
     image = preprocess.prepare_health(crop, debug_name)
     if image is None:
         return ""

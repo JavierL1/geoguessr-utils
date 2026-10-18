@@ -1,0 +1,9 @@
+from dataclasses import dataclass
+
+
+@dataclass
+class ROI:
+    x: int
+    y: int
+    w: int
+    h: int

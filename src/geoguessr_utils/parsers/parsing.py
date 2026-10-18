@@ -9,6 +9,11 @@ from typing import Literal, TypedDict
 NumberMode = Literal["int", "float"]
 
 
+class Distance(TypedDict):
+    amount: float | str | None
+    unit: Literal["m", "km"] | None
+
+
 def extract_numbers(text: str | None, mode: NumberMode = "float") -> int | float | None:
     """Strip every non-numeric character and return the number.
 
@@ -48,11 +53,6 @@ def match_username(
     return matches[0] if matches else None
 
 
-class Distance(TypedDict):
-    amount: float | str | None
-    unit: Literal["m", "km"] | None
-
-
 def parse_distance(text: str | None) -> Distance | None:
     """Parse distance strings like '511 km' or '7.4 km' or 'inf m'.
 
@@ -76,3 +76,19 @@ def parse_distance(text: str | None) -> Distance | None:
         return {"amount": "inf", "unit": unit}
 
     return {"amount": amount, "unit": unit}
+
+
+def parse_time_in_seconds(hours: int, minutes: int, seconds: int) -> int | None:
+    if (
+        not isinstance(hours, int)
+        or not isinstance(minutes, int)
+        or not isinstance(seconds, int)
+    ):
+        return None
+    return hours * 60 * 60 + minutes * 60 + seconds
+
+
+def parse_hms(values: list[int]) -> int:
+    """Convert [hours, minutes, seconds] to total seconds."""
+    hours, minutes, seconds = values
+    return hours * 3600 + minutes * 60 + seconds
