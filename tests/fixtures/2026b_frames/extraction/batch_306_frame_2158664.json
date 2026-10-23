@@ -1,0 +1,22 @@
+{
+    "left": {
+        "match_score": 2,
+        "username": "DEBRE",
+        "round_score": 4983,
+        "distance": {
+            "amount": 4.5,
+            "unit": "km"
+        },
+        "health_points": 4363
+    },
+    "right": {
+        "match_score": 0,
+        "username": "NOKSI",
+        "round_score": 4537,
+        "distance": {
+            "amount": 131.0,
+            "unit": "km"
+        },
+        "health_points": 917
+    }
+}

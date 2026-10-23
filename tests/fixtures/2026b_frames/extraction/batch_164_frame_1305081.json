@@ -1,0 +1,22 @@
+{
+    "left": {
+        "match_score": 1,
+        "username": "STREFAN",
+        "round_score": 4645,
+        "distance": {
+            "amount": 99.0,
+            "unit": "km"
+        },
+        "health_points": 1782
+    },
+    "right": {
+        "match_score": 1,
+        "username": "KRATSOOO",
+        "round_score": 4715,
+        "distance": {
+            "amount": 79.0,
+            "unit": "km"
+        },
+        "health_points": 4706
+    }
+}

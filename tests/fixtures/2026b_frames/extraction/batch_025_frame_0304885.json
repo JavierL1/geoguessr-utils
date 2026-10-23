@@ -1,0 +1,22 @@
+{
+    "left": {
+        "match_score": 2,
+        "username": "BLINKY",
+        "round_score": 0,
+        "distance": {
+            "amount": "inf",
+            "unit": "km"
+        },
+        "health_points": 908
+    },
+    "right": {
+        "match_score": 0,
+        "username": "KAPTEN",
+        "round_score": 4887,
+        "distance": {
+            "amount": 31.0,
+            "unit": "km"
+        },
+        "health_points": 3253
+    }
+}

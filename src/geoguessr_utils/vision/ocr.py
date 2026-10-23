@@ -17,8 +17,25 @@ def read_distance(crop, debug_name=None) -> str:
 
 def read_standard(crop, debug_name=None) -> str:
     image = preprocess.prepare_standard(crop, debug_name)
+
     raw = pytesseract.image_to_string(image, config=CONFIG_STANDARD).strip().lower()
-    return raw.replace("o", "0")
+    raw = raw.replace("o", "0")
+
+    if not raw:
+        image_with_context = preprocess.add_synthetic_context(image)
+        raw_context = (
+            pytesseract.image_to_string(image_with_context, config=CONFIG_STANDARD)
+            .strip()
+            .lower()
+        )
+        raw_context = raw_context.replace("o", "0")
+
+        if raw_context.startswith("1"):
+            raw = raw_context[1:]
+        else:
+            raw = raw_context
+
+    return raw
 
 
 def read_username(crop, debug_name=None) -> str:

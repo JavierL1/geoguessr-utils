@@ -1,0 +1,22 @@
+{
+    "left": {
+        "match_score": 0,
+        "username": "MK",
+        "round_score": 3994,
+        "distance": {
+            "amount": 303.0,
+            "unit": "km"
+        },
+        "health_points": 505
+    },
+    "right": {
+        "match_score": 1,
+        "username": "MANUELSON",
+        "round_score": 2554,
+        "distance": {
+            "amount": 907.0,
+            "unit": "km"
+        },
+        "health_points": 2996
+    }
+}

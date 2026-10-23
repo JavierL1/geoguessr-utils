@@ -22,8 +22,8 @@ from pathlib import Path
 import cv2
 
 from geoguessr_utils.discovery.collector import ScoreScreenCollector
-from geoguessr_utils.discovery.progress import print_eta_progress
 from geoguessr_utils.layouts import Layout
+from geoguessr_utils.utils.progress import print_eta_progress
 from geoguessr_utils.vision.detectors.base import ScreenDetector
 
 

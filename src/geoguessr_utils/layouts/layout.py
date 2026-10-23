@@ -121,7 +121,12 @@ class Layout(ABC):
         self, frame: np.ndarray, side: ScreenSide, feature: ScreenFeature
     ) -> np.ndarray:
         """Crop a feature ROI from the frame."""
-        roi = self.score_screen_feature_rois[side][feature]
+        feature_rois = (
+            self.score_screen_feature_rois.left
+            if side == "left"
+            else self.score_screen_feature_rois.right
+        )
+        roi: ROI = getattr(feature_rois, feature)
         return frame[roi.y : roi.y + roi.h, roi.x : roi.x + roi.w]
 
     def feature_name(self, side: ScreenSide, feature: ScreenFeature) -> str | None:

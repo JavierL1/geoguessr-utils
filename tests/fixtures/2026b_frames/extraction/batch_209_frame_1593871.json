@@ -1,0 +1,22 @@
+{
+    "left": {
+        "match_score": 2,
+        "username": "MOO",
+        "round_score": 5000,
+        "distance": {
+            "amount": 15.0,
+            "unit": "m"
+        },
+        "health_points": 3896
+    },
+    "right": {
+        "match_score": 0,
+        "username": "JAMABI",
+        "round_score": 4971,
+        "distance": {
+            "amount": 7.8,
+            "unit": "km"
+        },
+        "health_points": 4153
+    }
+}

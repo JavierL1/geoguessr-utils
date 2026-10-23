@@ -155,6 +155,30 @@ def prepare_standard(crop, debug_name=None):
     return padded
 
 
+def add_synthetic_context(image: np.ndarray) -> np.ndarray:
+    """Prepends a synthetic '1' to give Tesseract context for isolated digits.
+
+    Expects the image to be black text on a white background (the output
+    of `prepare_standard`).
+    """
+    h, w = image.shape
+
+    # Create a white canvas for the dummy '1'
+    dummy_width = max(30, int(h * 0.6))
+    dummy = np.full((h, dummy_width), 255, dtype=np.uint8)
+
+    # Draw a thick black vertical line to look like a '1'
+    center_x = dummy_width // 2
+    margin_y = max(5, h // 10)
+    thickness = max(2, h // 10)
+    cv2.line(dummy, (center_x, margin_y), (center_x, h - margin_y), 0, thickness)
+
+    # Stack the dummy '1' and the original image horizontally
+    combined = np.hstack((dummy, image))
+
+    return combined
+
+
 def prepare_username(crop, debug_name=None):
     """Player name text."""
     scaled = cv2.resize(crop, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)

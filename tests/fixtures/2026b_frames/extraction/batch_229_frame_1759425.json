@@ -1,0 +1,22 @@
+{
+    "left": {
+        "match_score": 0,
+        "username": "BULGARIAENJ.",
+        "round_score": 4998,
+        "distance": {
+            "amount": 651.0,
+            "unit": "m"
+        },
+        "health_points": 3182
+    },
+    "right": {
+        "match_score": 0,
+        "username": "LENNLI",
+        "round_score": 4967,
+        "distance": {
+            "amount": 8.9,
+            "unit": "km"
+        },
+        "health_points": 483
+    }
+}
