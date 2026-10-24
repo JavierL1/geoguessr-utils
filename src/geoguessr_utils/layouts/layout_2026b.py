@@ -8,6 +8,14 @@ is detected — that responsibility lives in
 `geoguessr_utils.vision.detectors.score_screen_2026b` and is paired
 with this layout by the CLI.
 
+Extraction pipelines are declared as recipes in
+`geoguessr_utils.vision.recipes.layout_2026b`. Each feature delegates
+to `run_recipe`, which handles preprocessing, Tesseract, postprocessing,
+and fallbacks uniformly.
+
+`match_score` is the one exception: it uses contour geometry rather
+than Tesseract (single digit, always 0/1/2), so it stays hand-written.
+
 Coordinate data is hardcoded for 1080p video. If support for other
 resolutions is added, this class is the natural place to branch (e.g.,
 via a `resolution` constructor argument that scales ROIs).
@@ -23,7 +31,9 @@ from geoguessr_utils.layouts.layout import (
     ScreenSide,
 )
 from geoguessr_utils.parsers import parsing
-from geoguessr_utils.vision import ocr
+from geoguessr_utils.vision import preprocess
+from geoguessr_utils.vision.recipes import layout_2026b as recipes
+from geoguessr_utils.vision.recipes.base import run_recipe
 from geoguessr_utils.vision.roi import ROI
 
 
@@ -83,11 +93,18 @@ class Layout2026B(Layout):
             ),
         )
 
+    # -- Feature extraction ----------------------------------------------
+
     def detect_match_score(self, frame: np.ndarray, side: ScreenSide) -> int | None:
-        """Return the parsed match score, or None if not readable."""
+        """Return the parsed match score, or None if not readable.
+
+        Match score is always a single digit (0, 1, or 2), so it uses
+        contour geometry instead of Tesseract. Geometry doesn't fit the
+        `Recipe` pipeline shape, so this stays hand-written.
+        """
         feature: ScreenFeature = "match_score"
         return parsing.extract_numbers(
-            ocr.read_match_score(
+            preprocess.detect_digit_by_geometry(
                 self.crop_feature(frame, side, feature),
                 debug_name=self.feature_name(side, feature),
             ),
@@ -98,8 +115,9 @@ class Layout2026B(Layout):
         """Return the parsed round score, or None if not readable."""
         feature: ScreenFeature = "round_score"
         return parsing.extract_numbers(
-            ocr.read_standard(
+            run_recipe(
                 self.crop_feature(frame, side, feature),
+                recipes.ROUND_SCORE,
                 debug_name=self.feature_name(side, feature),
             ),
             mode="int",
@@ -111,8 +129,9 @@ class Layout2026B(Layout):
         """Return the parsed distance, or None if not readable."""
         feature: ScreenFeature = "distance"
         return parsing.parse_distance(
-            ocr.read_distance(
+            run_recipe(
                 self.crop_feature(frame, side, feature),
+                recipes.DISTANCE,
                 debug_name=self.feature_name(side, feature),
             )
         )
@@ -121,8 +140,9 @@ class Layout2026B(Layout):
         """Return the parsed health points, or None if not readable."""
         feature: ScreenFeature = "health_points"
         return parsing.extract_numbers(
-            ocr.read_health_points(
+            run_recipe(
                 self.crop_feature(frame, side, feature),
+                recipes.HEALTH,
                 debug_name=self.feature_name(side, feature),
             ),
             mode="int",
@@ -132,8 +152,9 @@ class Layout2026B(Layout):
         """Return the fuzzy-matched username, or None if not readable."""
         feature: ScreenFeature = "username"
         return parsing.match_username(
-            ocr.read_username(
+            run_recipe(
                 self.crop_feature(frame, side, feature),
+                recipes.USERNAME,
                 debug_name=self.feature_name(side, feature),
             ),
             self.known_usernames,

@@ -8,6 +8,7 @@ at the CLI level (see `discover_screens.py` for the wiring).
 """
 
 from .base import ScreenDetector
+from .score_screen_2026a import ScoreScreenDetector2026A
 from .score_screen_2026b import ScoreScreenDetector2026B
 
-__all__ = ["ScreenDetector", "ScoreScreenDetector2026B"]
+__all__ = ["ScreenDetector", "ScoreScreenDetector2026A", "ScoreScreenDetector2026B"]

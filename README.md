@@ -38,10 +38,10 @@ The pipeline has two stages, both exposed as CLI commands:
 
 Discovery (gg-discover) scans the video at roughly 1 frame per second,
 checking whether the current frame matches a score screen using color
-ratios, text density, and health-bar visibility. When it detects the
-start of a score screen, it switches to a 4x-per-second sampling rate
-and keeps overwriting the last-valid-frame until the screen ends --
-at which point the fully-rendered final frame is saved.
+ratios, text density, and structural checks. When it detects the start
+of a score screen, it switches to a 4x-per-second sampling rate and
+keeps overwriting the last-valid-frame until the screen ends -- at
+which point the fully-rendered final frame is saved.
 
 Extraction (gg-extract) reads each saved frame, crops the ROIs for
 each player's features, and routes each crop through a feature-
@@ -51,13 +51,13 @@ matching against the roster.
 
 The architecture is layout-driven: everything screen-specific (ROI
 coordinates, usernames, detection heuristic) lives behind a Layout
-interface. Adding support for a new Geoguessr UI means writing one
-new layout file, not modifying the pipeline.
+and ScreenDetector interface. Adding support for a new Geoguessr UI
+means writing one new layout file, not modifying the pipeline.
 
 
 ## Installation
 
-Requires Python 3.12+ and Tesseract OCR.
+Requires Python 3.14+ and Tesseract OCR.
 
 ### Step 1: Install Tesseract
 
@@ -95,9 +95,13 @@ uv run handles it.
 
 ## Quickstart
 
-Run the two pipeline stages in order:
+Run the two pipeline stages in order. Note that `gg-discover` requires
+you to specify which UI layout the video uses (see the Layouts section):
 
-    uv run gg-discover -v match.mp4 -o frames/
+    # 1. Discover score screens (using the 2026B layout)
+    uv run gg-discover -v match.mp4 -o frames/ --layout 2026b
+
+    # 2. Extract data from the saved frames
     uv run gg-extract -i frames/ -o results.json
 
 Sample output from results.json:
@@ -149,5 +153,30 @@ Fields:
         currently only "1080p" layouts exist.
 
 Everything else -- ROIs, known usernames, detection thresholds --
-lives in the layout, not in the config. See the Layouts section for
-details.
+lives in the layout, not in the config. See the Layouts section below.
+
+
+## Layouts
+
+Geoguessr periodically updates its broadcast UI. The 2026 World
+Championships UI, for example, looks completely different from the
+standard 2026 UI. To handle this, the project uses a strategy pattern.
+
+Every supported UI version has two components:
+1. A `Layout` class (defines where the ROIs are and how to extract text).
+2. A `ScreenDetector` class (defines the OpenCV heuristic used to find the score screen in the video).
+
+These are paired together in a registry inside `discover_screens.py`.
+
+Currently supported layouts:
+
+    2026b
+        The standard Geoguessr UI.
+
+    2026a
+        The World Championships Berlin UI.
+
+To discover screens using a specific layout, pass the -l/--layout
+flag to gg-discover:
+
+    uv run gg-discover -v match.mp4 -o frames/ --layout 2026a
