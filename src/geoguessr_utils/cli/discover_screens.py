@@ -15,7 +15,7 @@ from pathlib import Path
 
 from geoguessr_utils.discovery.scanner import discover
 from geoguessr_utils.layouts import Layout2026A, Layout2026B
-from geoguessr_utils.utils import video
+from geoguessr_utils.parsers import parsing
 from geoguessr_utils.vision.detectors import (
     ScoreScreenDetector2026A,
     ScoreScreenDetector2026B,
@@ -79,8 +79,8 @@ def main() -> None:
         print(f"Error: Video file '{video_path}' not found.", file=sys.stderr)
         sys.exit(1)
 
-    start_seconds = video.parse_hms(args.start_time)
-    end_seconds = video.parse_hms(args.end_time) if args.end_time else None
+    start_seconds = parsing.parse_hms(args.start_time)
+    end_seconds = parsing.parse_hms(args.end_time) if args.end_time else None
 
     # 1. Look up the classes from the registry
     layout_cls, detector_cls = LAYOUT_REGISTRY[args.layout]

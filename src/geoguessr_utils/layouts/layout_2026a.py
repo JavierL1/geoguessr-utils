@@ -52,8 +52,16 @@ class Layout2026A(Layout):
             "top_score_left": ROI(x=530, y=98, w=270, h=94),
             "top_score_right": ROI(x=1224, y=98, w=270, h=94),
             "center_logo": ROI(x=875, y=68, w=263, h=134),
-            "bg_left": ROI(x=524, y=194, w=325, h=65),
-            "bg_right": ROI(x=1203, y=194, w=325, h=65),
+            "bg_top_left": ROI(x=542, y=74, w=68, h=22),
+            "bg_top_right": ROI(x=1413, y=74, w=68, h=22),
+            "bg_middle_left": ROI(x=799, y=5, w=78, h=249),
+            "bg_middle_right": ROI(x=1137, y=5, w=78, h=249),
+            "bg_left": ROI(x=489, y=101, w=41, h=98),
+            "bg_right": ROI(x=1486, y=101, w=41, h=98),
+            "bg_bottom_left": ROI(x=524, y=194, w=325, h=65),
+            "bg_bottom_right": ROI(x=1203, y=194, w=325, h=65),
+            "distance_left": ROI(x=576, y=55, w=53, h=29),
+            "distance_right": ROI(x=1392, y=55, w=53, h=29),
         }
 
     @property

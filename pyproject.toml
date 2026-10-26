@@ -14,8 +14,11 @@ dependencies = [
 ]
 
 [project.scripts]
-gg-extract = "geoguessr_utils.extract_score:main"
-gg-discover = "geoguessr_utils.discover_screens:main"
+gg-visualize = "geoguessr_utils.cli.visualize_rois:main"
+gg-select-roi = "geoguessr_utils.cli.select_roi:main"
+gg-extract = "geoguessr_utils.cli.extract_score:main"
+gg-discover = "geoguessr_utils.cli.discover_screens:main"
+gg-filter = "geoguessr_utils.cli.filter_screens:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]

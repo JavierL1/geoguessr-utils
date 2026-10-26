@@ -1,14 +1,9 @@
-# /// script
-# dependencies = [
-#     "opencv-python",
-# ]
-# ///
-
 import argparse
 import json
-import cv2
 import os
 import sys
+
+import cv2
 
 
 def main():
