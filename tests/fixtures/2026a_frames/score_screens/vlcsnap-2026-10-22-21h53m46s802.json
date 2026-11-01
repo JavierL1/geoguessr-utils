@@ -1,0 +1,22 @@
+{
+  "left": {
+    "match_score": null,
+    "username": "NOKSI",
+    "round_score": 0,
+    "distance": {
+      "amount": 15310.0,
+      "unit": "km"
+    },
+    "health_points": 4020
+  },
+  "right": {
+    "match_score": null,
+    "username": "CONSUS",
+    "round_score": 0,
+    "distance": {
+      "amount": 14767.0,
+      "unit": "km"
+    },
+    "health_points": 4457
+  }
+}

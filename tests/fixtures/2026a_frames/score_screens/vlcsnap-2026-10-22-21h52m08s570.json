@@ -1,0 +1,22 @@
+{
+  "left": {
+    "match_score": null,
+    "username": "SHIINA",
+    "round_score": 4997,
+    "distance": {
+      "amount": 801.0,
+      "unit": "m"
+    },
+    "health_points": 3629
+  },
+  "right": {
+    "match_score": null,
+    "username": "CONSUS",
+    "round_score": 5000,
+    "distance": {
+      "amount": 6.0,
+      "unit": "m"
+    },
+    "health_points": 2307
+  }
+}

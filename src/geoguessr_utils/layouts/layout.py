@@ -91,6 +91,11 @@ class Layout(ABC):
     def score_screen_feature_rois(self) -> ScreenFeatureROIS:
         """ROIs used by the extraction pipeline for each feature."""
 
+    @property
+    @abstractmethod
+    def supported_features(self) -> list[ScreenFeature]:
+        """Return the list of features available on this layout."""
+
     # -- Feature extraction ----------------------------------------------
 
     @abstractmethod

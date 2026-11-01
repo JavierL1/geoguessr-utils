@@ -1,0 +1,22 @@
+{
+  "left": {
+    "match_score": null,
+    "username": "THE GYMTIMIDATOR",
+    "round_score": 5000,
+    "distance": {
+      "amount": 16.0,
+      "unit": "m"
+    },
+    "health_points": 3860
+  },
+  "right": {
+    "match_score": null,
+    "username": "MOO",
+    "round_score": 4959,
+    "distance": {
+      "amount": 11.0,
+      "unit": "km"
+    },
+    "health_points": 4833
+  }
+}

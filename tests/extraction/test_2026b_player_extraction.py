@@ -20,8 +20,9 @@ import pytest
 
 from geoguessr_utils.extraction import extract_player
 from geoguessr_utils.layouts import Layout2026B
+from geoguessr_utils.vision import preprocess
 
-FIXTURES = Path(__file__).parent.parent / "fixtures" / "2026b_frames" / "extraction"
+FIXTURES = Path(__file__).parent.parent / "fixtures" / "2026b_frames" / "score_screens"
 
 
 def _discover_fixtures() -> list[Path]:
@@ -38,7 +39,17 @@ def _discover_fixtures() -> list[Path]:
 
 @pytest.fixture(scope="module")
 def layout():
-    return Layout2026B()
+    # 1. Turn on the preprocess module's global debug flag
+    preprocess.DEBUG = True
+
+    # 2. Turn on the layout's debug flag
+    layout = Layout2026B()
+    layout.debug = True
+
+    yield layout
+
+    # (Optional) Turn it back off after the module finishes
+    preprocess.DEBUG = False
 
 
 @pytest.mark.parametrize("image_path", _discover_fixtures(), ids=lambda p: p.name)

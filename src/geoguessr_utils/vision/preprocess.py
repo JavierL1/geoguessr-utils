@@ -89,6 +89,30 @@ def prepare_distance(crop, debug_name=None):
     return prepare_distance_purple(crop, debug_name)
 
 
+def prepare_distance_dark(crop, debug_name=None):
+    """Distance over a dark background."""
+    if debug_name and DEBUG:
+        cv2.imwrite(f"debug_{debug_name}_raw.jpg", crop)
+    scaled = cv2.resize(crop, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+    if debug_name and DEBUG:
+        cv2.imwrite(f"debug_{debug_name}_scaled.jpg", scaled)
+
+    gray = cv2.cvtColor(scaled, cv2.COLOR_BGR2GRAY)
+    if debug_name and DEBUG:
+        cv2.imwrite(f"debug_{debug_name}_gray.jpg", gray)
+
+    _, thresh = cv2.threshold(gray, 40, 255, cv2.THRESH_BINARY)
+    kernel = np.ones((3, 3), np.uint8)
+    thinned = cv2.erode(thresh, kernel, iterations=2)
+    inverted = cv2.bitwise_not(thinned)
+    padded = cv2.copyMakeBorder(
+        inverted, 20, 20, 20, 20, cv2.BORDER_CONSTANT, value=255
+    )
+    if debug_name and DEBUG:
+        cv2.imwrite(f"debug_{debug_name}.jpg", padded)
+    return padded
+
+
 # ---------------------------------------------------------------------------
 # Overall score (massive standalone digits 0/1/2)
 # ---------------------------------------------------------------------------
@@ -139,11 +163,11 @@ def detect_digit_by_geometry(crop: np.ndarray, debug_name=None) -> str:
 # ---------------------------------------------------------------------------
 
 
-def prepare_standard(crop, debug_name=None):
+def prepare_round_score(crop, threshold=200, debug_name=None):
     """Round scores and similar numeric fields."""
     scaled = cv2.resize(crop, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
     gray = cv2.cvtColor(scaled, cv2.COLOR_BGR2GRAY)
-    _, thresh = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY)
+    _, thresh = cv2.threshold(gray, threshold, 255, cv2.THRESH_BINARY)
     kernel = np.ones((3, 3), np.uint8)
     thinned = cv2.erode(thresh, kernel, iterations=2)
     inverted = cv2.bitwise_not(thinned)
@@ -159,7 +183,7 @@ def add_synthetic_context(image: np.ndarray) -> np.ndarray:
     """Prepends a synthetic '1' to give Tesseract context for isolated digits.
 
     Expects the image to be black text on a white background (the output
-    of `prepare_standard`).
+    of `prepare_round_score`).
     """
     h, w = image.shape
 

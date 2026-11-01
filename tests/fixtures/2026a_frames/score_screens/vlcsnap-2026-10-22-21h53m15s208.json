@@ -1,0 +1,22 @@
+{
+  "left": {
+    "match_score": null,
+    "username": "ECAL",
+    "round_score": 2563,
+    "distance": {
+      "amount": 902.0,
+      "unit": "km"
+    },
+    "health_points": 1034
+  },
+  "right": {
+    "match_score": null,
+    "username": "SHIINA",
+    "round_score": 2555,
+    "distance": {
+      "amount": 906.0,
+      "unit": "km"
+    },
+    "health_points": 3508
+  }
+}

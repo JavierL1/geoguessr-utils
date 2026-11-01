@@ -93,6 +93,10 @@ class Layout2026B(Layout):
             ),
         )
 
+    @property
+    def supported_features(self) -> list[ScreenFeature]:
+        return ["match_score", "round_score", "distance", "username", "health_points"]
+
     # -- Feature extraction ----------------------------------------------
 
     def detect_match_score(self, frame: np.ndarray, side: ScreenSide) -> int | None:
@@ -103,18 +107,19 @@ class Layout2026B(Layout):
         `Recipe` pipeline shape, so this stays hand-written.
         """
         feature: ScreenFeature = "match_score"
-        return parsing.extract_numbers(
+        match_score = parsing.extract_numbers(
             preprocess.detect_digit_by_geometry(
                 self.crop_feature(frame, side, feature),
                 debug_name=self.feature_name(side, feature),
             ),
             mode="int",
         )
+        return match_score if isinstance(match_score, int) else 0
 
     def detect_round_score(self, frame: np.ndarray, side: ScreenSide) -> int | None:
         """Return the parsed round score, or None if not readable."""
         feature: ScreenFeature = "round_score"
-        return parsing.extract_numbers(
+        round_score = parsing.extract_numbers(
             run_recipe(
                 self.crop_feature(frame, side, feature),
                 recipes.ROUND_SCORE,
@@ -122,6 +127,7 @@ class Layout2026B(Layout):
             ),
             mode="int",
         )
+        return round_score if isinstance(round_score, int) else 0
 
     def detect_distance(
         self, frame: np.ndarray, side: ScreenSide
@@ -139,7 +145,7 @@ class Layout2026B(Layout):
     def detect_health_points(self, frame: np.ndarray, side: ScreenSide) -> int | None:
         """Return the parsed health points, or None if not readable."""
         feature: ScreenFeature = "health_points"
-        return parsing.extract_numbers(
+        health_points = parsing.extract_numbers(
             run_recipe(
                 self.crop_feature(frame, side, feature),
                 recipes.HEALTH,
@@ -147,6 +153,7 @@ class Layout2026B(Layout):
             ),
             mode="int",
         )
+        return health_points if isinstance(health_points, int) else 0
 
     def detect_username(self, frame: np.ndarray, side: ScreenSide) -> str | None:
         """Return the fuzzy-matched username, or None if not readable."""

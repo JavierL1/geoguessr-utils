@@ -1,0 +1,22 @@
+{
+  "left": {
+    "match_score": null,
+    "username": "MK",
+    "round_score": 4999,
+    "distance": {
+      "amount": 191.0,
+      "unit": "m"
+    },
+    "health_points": 3566
+  },
+  "right": {
+    "match_score": null,
+    "username": "TRABOTA",
+    "round_score": 5000,
+    "distance": {
+      "amount": 15.0,
+      "unit": "m"
+    },
+    "health_points": 3408
+  }
+}
