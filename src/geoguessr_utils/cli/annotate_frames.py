@@ -6,16 +6,12 @@ import sys
 from pathlib import Path
 from typing import Literal
 
-from geoguessr_utils.layouts import Layout, Layout2026A, Layout2026B
+from geoguessr_utils.layout_registry import LAYOUT_REGISTRY
+from geoguessr_utils.layouts import Layout
 from geoguessr_utils.parsers import parsing
 from geoguessr_utils.player_result import PlayerResult
 
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png")
-
-LAYOUT_REGISTRY = {
-    "2026a": Layout2026A,
-    "2026b": Layout2026B,
-}
 
 
 def _parse_args() -> argparse.Namespace:
@@ -157,7 +153,7 @@ def main() -> None:
         print(f"Error: Directory '{input_dir}' not found.", file=sys.stderr)
         sys.exit(1)
 
-    layout_cls = LAYOUT_REGISTRY[args.layout]
+    layout_cls = LAYOUT_REGISTRY[args.layout]["layout"]
     layout = layout_cls()
 
     image_paths = sorted(

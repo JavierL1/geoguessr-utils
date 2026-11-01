@@ -15,16 +15,7 @@ from pathlib import Path
 
 import cv2
 
-from geoguessr_utils.layouts import Layout2026A, Layout2026B
-from geoguessr_utils.vision.detectors import (
-    ScoreScreenDetector2026A,
-    ScoreScreenDetector2026B,
-)
-
-LAYOUT_REGISTRY = {
-    "2026a": (Layout2026A, ScoreScreenDetector2026A),
-    "2026b": (Layout2026B, ScoreScreenDetector2026B),
-}
+from geoguessr_utils.layout_registry import LAYOUT_REGISTRY
 
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png")
 # Matches: batch_001_frame_0012345.jpg
@@ -64,7 +55,9 @@ def main() -> None:
         print(f"Error: Input directory '{input_dir}' not found.", file=sys.stderr)
         sys.exit(1)
 
-    layout_cls, detector_cls = LAYOUT_REGISTRY[args.layout]
+    layout_cls = LAYOUT_REGISTRY[args.layout]["layout"]
+    detector_cls = LAYOUT_REGISTRY[args.layout]["detector"]
+
     layout = layout_cls()
     detector = detector_cls(layout.score_screen_discovery_rois)
 

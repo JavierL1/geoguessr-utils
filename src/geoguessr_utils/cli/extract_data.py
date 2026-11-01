@@ -4,7 +4,7 @@ CLI entry point for score-screen extraction.
 Parses arguments, resolves the layout, and hands off to
 `geoguessr_utils.extraction.runner.extract_directory`.
 
-This is the only module in the codebase that imports `Layout2026B`
+This is the only module in the codebase that imports concrete Layouts
 for the extraction side. Every other module depends only on the
 abstract `Layout` interface.
 """
@@ -15,7 +15,7 @@ from pathlib import Path
 
 from geoguessr_utils.config import AppConfig
 from geoguessr_utils.extraction.runner import extract_directory
-from geoguessr_utils.layouts import Layout2026B
+from geoguessr_utils.layout_registry import LAYOUT_REGISTRY
 
 
 def _parse_args() -> argparse.Namespace:
@@ -39,6 +39,13 @@ def _parse_args() -> argparse.Namespace:
         "--config",
         default="config.json",
         help="Path to JSON config file",
+    )
+    parser.add_argument(
+        "-l",
+        "--layout",
+        choices=LAYOUT_REGISTRY.keys(),
+        default="2026b",
+        help="Which UI layout to use for extraction (default: 2026b)",
     )
     parser.add_argument(
         "-d",
@@ -67,10 +74,16 @@ def main() -> None:
 
     config = AppConfig.load(config_path)
 
+    # Look up and instantiate the selected layout
+    layout_cls = LAYOUT_REGISTRY[args.layout]["layout"]
+    layout = layout_cls()
+
+    print(f"Starting extraction using {layout_cls.__name__}...")
+
     extract_directory(
         input_dir=args.input,
         output_json=args.output,
-        layout=Layout2026B(),
+        layout=layout,
         config=config,
         debug=args.debug,
     )

@@ -14,19 +14,8 @@ import sys
 from pathlib import Path
 
 from geoguessr_utils.discovery.scanner import discover
-from geoguessr_utils.layouts import Layout2026A, Layout2026B
+from geoguessr_utils.layout_registry import LAYOUT_REGISTRY
 from geoguessr_utils.parsers import parsing
-from geoguessr_utils.vision.detectors import (
-    ScoreScreenDetector2026A,
-    ScoreScreenDetector2026B,
-)
-
-# The Registry: Maps CLI strings to (Layout, Detector) pairs.
-# Adding a new layout means adding one line here.
-LAYOUT_REGISTRY = {
-    "2026a": (Layout2026A, ScoreScreenDetector2026A),
-    "2026b": (Layout2026B, ScoreScreenDetector2026B),
-}
 
 
 def _parse_args() -> argparse.Namespace:
@@ -83,7 +72,8 @@ def main() -> None:
     end_seconds = parsing.parse_hms(args.end_time) if args.end_time else None
 
     # 1. Look up the classes from the registry
-    layout_cls, detector_cls = LAYOUT_REGISTRY[args.layout]
+    layout_cls = LAYOUT_REGISTRY[args.layout]["layout"]
+    detector_cls = LAYOUT_REGISTRY[args.layout]["detector"]
 
     # 2. Instantiate them
     layout = layout_cls()

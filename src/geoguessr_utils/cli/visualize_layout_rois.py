@@ -11,14 +11,8 @@ from pathlib import Path
 
 import cv2
 
-from geoguessr_utils.layouts import Layout2026A, Layout2026B
+from geoguessr_utils.layout_registry import LAYOUT_REGISTRY
 from geoguessr_utils.vision.roi import ROI
-
-# Reuse the same registry pattern used in the CLI pipelines
-LAYOUT_REGISTRY = {
-    "2026a": Layout2026A,
-    "2026b": Layout2026B,
-}
 
 
 def _draw_roi(
@@ -91,7 +85,8 @@ def main():
         sys.exit(1)
 
     # 1. Instantiate the layout
-    layout_cls = LAYOUT_REGISTRY[args.layout]
+    layout_cls = LAYOUT_REGISTRY[args.layout]["layout"]
+
     layout = layout_cls()
     print(f"Loaded {layout_cls.__name__}")
 
