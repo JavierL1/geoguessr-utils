@@ -1,0 +1,6424 @@
+[
+    {
+        "screen_index": "001",
+        "frame_index": 78036,
+        "source_image": "batch_001_frame_0078036.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4911,
+            "distance": {
+                "amount": 24.0,
+                "unit": "km"
+            },
+            "health_points": 4964
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4947,
+            "distance": {
+                "amount": 15.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "00:21:41"
+    },
+    {
+        "screen_index": "002",
+        "frame_index": 82553,
+        "source_image": "batch_002_frame_0082553.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 3316,
+            "distance": {
+                "amount": 554.0,
+                "unit": "km"
+            },
+            "health_points": 4964
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 3149,
+            "distance": {
+                "amount": 624.0,
+                "unit": "km"
+            },
+            "health_points": 4833
+        },
+        "time_code": "00:22:57"
+    },
+    {
+        "screen_index": "003",
+        "frame_index": 85963,
+        "source_image": "batch_003_frame_0085963.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4786,
+            "distance": {
+                "amount": 59.0,
+                "unit": "km"
+            },
+            "health_points": 4706
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4958,
+            "distance": {
+                "amount": 11.0,
+                "unit": "km"
+            },
+            "health_points": 4833
+        },
+        "time_code": "00:23:54"
+    },
+    {
+        "screen_index": "004",
+        "frame_index": 90480,
+        "source_image": "batch_004_frame_0090480.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4953,
+            "distance": {
+                "amount": 13.0,
+                "unit": "km"
+            },
+            "health_points": 4706
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4713,
+            "distance": {
+                "amount": 80.0,
+                "unit": "km"
+            },
+            "health_points": 4473
+        },
+        "time_code": "00:25:09"
+    },
+    {
+        "screen_index": "005",
+        "frame_index": 94556,
+        "source_image": "batch_005_frame_0094556.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4986,
+            "distance": {
+                "amount": 3.7,
+                "unit": "km"
+            },
+            "health_points": 4706
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 3997,
+            "distance": {
+                "amount": 302.0,
+                "unit": "km"
+            },
+            "health_points": 2495
+        },
+        "time_code": "00:26:17"
+    },
+    {
+        "screen_index": "006",
+        "frame_index": 97216,
+        "source_image": "batch_006_frame_0097216.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4952,
+            "distance": {
+                "amount": 13.0,
+                "unit": "km"
+            },
+            "health_points": 4706
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4936,
+            "distance": {
+                "amount": 17.0,
+                "unit": "km"
+            },
+            "health_points": 2455
+        },
+        "time_code": "00:27:01"
+    },
+    {
+        "screen_index": "007",
+        "frame_index": 101292,
+        "source_image": "batch_007_frame_0101292.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4902,
+            "distance": {
+                "amount": 27.0,
+                "unit": "km"
+            },
+            "health_points": 4510
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 5000,
+            "distance": {
+                "amount": 7.0,
+                "unit": "m"
+            },
+            "health_points": 2455
+        },
+        "time_code": "00:28:09"
+    },
+    {
+        "screen_index": "008",
+        "frame_index": 103842,
+        "source_image": "batch_008_frame_0103842.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4999,
+            "distance": {
+                "amount": 226.0,
+                "unit": "m"
+            },
+            "health_points": 4510
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4999,
+            "distance": {
+                "amount": 206.0,
+                "unit": "m"
+            },
+            "health_points": 2455
+        },
+        "time_code": "00:28:52"
+    },
+    {
+        "screen_index": "009",
+        "frame_index": 107690,
+        "source_image": "batch_009_frame_0107690.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4997,
+            "distance": {
+                "amount": 755.0,
+                "unit": "m"
+            },
+            "health_points": 4510
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4997,
+            "distance": {
+                "amount": 740.0,
+                "unit": "m"
+            },
+            "health_points": 2455
+        },
+        "time_code": "00:29:56"
+    },
+    {
+        "screen_index": "010",
+        "frame_index": 112221,
+        "source_image": "batch_010_frame_0112221.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4331,
+            "distance": {
+                "amount": 194.0,
+                "unit": "km"
+            },
+            "health_points": 4510
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4208,
+            "distance": {
+                "amount": 233.0,
+                "unit": "km"
+            },
+            "health_points": 1963
+        },
+        "time_code": "00:31:12"
+    },
+    {
+        "screen_index": "011",
+        "frame_index": 116626,
+        "source_image": "batch_011_frame_0116626.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4380,
+            "distance": {
+                "amount": 179.0,
+                "unit": "km"
+            },
+            "health_points": 4510
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 3579,
+            "distance": {
+                "amount": 451.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "00:32:25"
+    },
+    {
+        "screen_index": "012",
+        "frame_index": 122028,
+        "source_image": "batch_012_frame_0122028.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4535,
+            "distance": {
+                "amount": 132.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4244,
+            "distance": {
+                "amount": 221.0,
+                "unit": "km"
+            },
+            "health_points": 4709
+        },
+        "time_code": "00:33:55"
+    },
+    {
+        "screen_index": "013",
+        "frame_index": 124834,
+        "source_image": "batch_013_frame_0124834.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4924,
+            "distance": {
+                "amount": 2.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4783,
+            "distance": {
+                "amount": 60.0,
+                "unit": "km"
+            },
+            "health_points": 4497
+        },
+        "time_code": "00:34:42"
+    },
+    {
+        "screen_index": "014",
+        "frame_index": 128497,
+        "source_image": "batch_014_frame_0128497.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 3673,
+            "distance": {
+                "amount": 416.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 627,
+            "distance": {
+                "amount": 1515.0,
+                "unit": "km"
+            },
+            "health_points": 405
+        },
+        "time_code": "00:35:43"
+    },
+    {
+        "screen_index": "015",
+        "frame_index": 131511,
+        "source_image": "batch_015_frame_0131511.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4835,
+            "distance": {
+                "amount": 45.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4805,
+            "distance": {
+                "amount": 54.0,
+                "unit": "km"
+            },
+            "health_points": 330
+        },
+        "time_code": "00:36:34"
+    },
+    {
+        "screen_index": "016",
+        "frame_index": 134663,
+        "source_image": "batch_016_frame_0134663.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4973,
+            "distance": {
+                "amount": 7.4,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4858,
+            "distance": {
+                "amount": 39.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "00:37:26"
+    },
+    {
+        "screen_index": "017",
+        "frame_index": 235232,
+        "source_image": "batch_017_frame_0235232.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4838,
+            "distance": {
+                "amount": 44.0,
+                "unit": "km"
+            },
+            "health_points": 4868
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4970,
+            "distance": {
+                "amount": 8.2,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "01:05:24"
+    },
+    {
+        "screen_index": "018",
+        "frame_index": 245531,
+        "source_image": "batch_018_frame_0245531.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4563,
+            "distance": {
+                "amount": 124.0,
+                "unit": "km"
+            },
+            "health_points": 4868
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4466,
+            "distance": {
+                "amount": 182.0,
+                "unit": "km"
+            },
+            "health_points": 4903
+        },
+        "time_code": "01:08:16"
+    },
+    {
+        "screen_index": "019",
+        "frame_index": 250062,
+        "source_image": "batch_019_frame_0250062.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4956,
+            "distance": {
+                "amount": 12.0,
+                "unit": "km"
+            },
+            "health_points": 4868
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4480,
+            "distance": {
+                "amount": 148.0,
+                "unit": "km"
+            },
+            "health_points": 4189
+        },
+        "time_code": "01:09:31"
+    },
+    {
+        "screen_index": "020",
+        "frame_index": 252396,
+        "source_image": "batch_020_frame_0252396.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4901,
+            "distance": {
+                "amount": 27.0,
+                "unit": "km"
+            },
+            "health_points": 4770
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4966,
+            "distance": {
+                "amount": 9.3,
+                "unit": "km"
+            },
+            "health_points": 4189
+        },
+        "time_code": "01:10:10"
+    },
+    {
+        "screen_index": "021",
+        "frame_index": 256820,
+        "source_image": "batch_021_frame_0256820.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 5000,
+            "distance": {
+                "amount": 3.0,
+                "unit": "m"
+            },
+            "health_points": 4770
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 5000,
+            "distance": {
+                "amount": 2.0,
+                "unit": "m"
+            },
+            "health_points": 4189
+        },
+        "time_code": "01:11:24"
+    },
+    {
+        "screen_index": "022",
+        "frame_index": 261337,
+        "source_image": "batch_022_frame_0261337.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 2682,
+            "distance": {
+                "amount": 841.0,
+                "unit": "km"
+            },
+            "health_points": 1795
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 3872,
+            "distance": {
+                "amount": 345.0,
+                "unit": "km"
+            },
+            "health_points": 4189
+        },
+        "time_code": "01:12:39"
+    },
+    {
+        "screen_index": "023",
+        "frame_index": 264202,
+        "source_image": "batch_023_frame_0264202.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4998,
+            "distance": {
+                "amount": 624.0,
+                "unit": "m"
+            },
+            "health_points": 1795
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 3785,
+            "distance": {
+                "amount": 376.0,
+                "unit": "km"
+            },
+            "health_points": 1157
+        },
+        "time_code": "01:13:27"
+    },
+    {
+        "screen_index": "024",
+        "frame_index": 267517,
+        "source_image": "batch_024_frame_0267517.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4993,
+            "distance": {
+                "amount": 1.8,
+                "unit": "km"
+            },
+            "health_points": 1795
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4373,
+            "distance": {
+                "amount": 181.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "01:14:23"
+    },
+    {
+        "screen_index": "025",
+        "frame_index": 273155,
+        "source_image": "batch_025_frame_0273155.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 3526,
+            "distance": {
+                "amount": 472.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 3465,
+            "distance": {
+                "amount": 495.0,
+                "unit": "km"
+            },
+            "health_points": 4939
+        },
+        "time_code": "01:15:57"
+    },
+    {
+        "screen_index": "026",
+        "frame_index": 276281,
+        "source_image": "batch_026_frame_0276281.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 0,
+            "distance": {
+                "amount": 16433.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 0,
+            "distance": {
+                "amount": 16674.0,
+                "unit": "km"
+            },
+            "health_points": 4939
+        },
+        "time_code": "01:16:49"
+    },
+    {
+        "screen_index": "027",
+        "frame_index": 280194,
+        "source_image": "batch_027_frame_0280194.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4570,
+            "distance": {
+                "amount": 121.0,
+                "unit": "km"
+            },
+            "health_points": 4820
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4690,
+            "distance": {
+                "amount": 86.0,
+                "unit": "km"
+            },
+            "health_points": 4939
+        },
+        "time_code": "01:17:54"
+    },
+    {
+        "screen_index": "028",
+        "frame_index": 283149,
+        "source_image": "batch_028_frame_0283149.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4346,
+            "distance": {
+                "amount": 189.0,
+                "unit": "km"
+            },
+            "health_points": 3970
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4771,
+            "distance": {
+                "amount": 63.0,
+                "unit": "km"
+            },
+            "health_points": 4939
+        },
+        "time_code": "01:18:43"
+    },
+    {
+        "screen_index": "029",
+        "frame_index": 287680,
+        "source_image": "batch_029_frame_0287680.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 3317,
+            "distance": {
+                "amount": 554.0,
+                "unit": "km"
+            },
+            "health_points": 3970
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 2998,
+            "distance": {
+                "amount": 691.0,
+                "unit": "km"
+            },
+            "health_points": 4301
+        },
+        "time_code": "01:19:59"
+    },
+    {
+        "screen_index": "030",
+        "frame_index": 290767,
+        "source_image": "batch_030_frame_0290767.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4706,
+            "distance": {
+                "amount": 82.0,
+                "unit": "km"
+            },
+            "health_points": 3248
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4995,
+            "distance": {
+                "amount": 1.2,
+                "unit": "km"
+            },
+            "health_points": 4301
+        },
+        "time_code": "01:20:50"
+    },
+    {
+        "screen_index": "031",
+        "frame_index": 295284,
+        "source_image": "batch_031_frame_0295284.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4750,
+            "distance": {
+                "amount": 69.0,
+                "unit": "km"
+            },
+            "health_points": 2498
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 5000,
+            "distance": {
+                "amount": 41.0,
+                "unit": "m"
+            },
+            "health_points": 4301
+        },
+        "time_code": "01:22:06"
+    },
+    {
+        "screen_index": "032",
+        "frame_index": 297396,
+        "source_image": "batch_032_frame_0297396.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4755,
+            "distance": {
+                "amount": 68.0,
+                "unit": "km"
+            },
+            "health_points": 2498
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4677,
+            "distance": {
+                "amount": 90.0,
+                "unit": "km"
+            },
+            "health_points": 4106
+        },
+        "time_code": "01:22:41"
+    },
+    {
+        "screen_index": "033",
+        "frame_index": 299331,
+        "source_image": "batch_033_frame_0299331.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4724,
+            "distance": {
+                "amount": 77.0,
+                "unit": "km"
+            },
+            "health_points": 2498
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4652,
+            "distance": {
+                "amount": 98.0,
+                "unit": "km"
+            },
+            "health_points": 3890
+        },
+        "time_code": "01:23:13"
+    },
+    {
+        "screen_index": "034",
+        "frame_index": 301488,
+        "source_image": "batch_034_frame_0301488.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4620,
+            "distance": {
+                "amount": 107.0,
+                "unit": "km"
+            },
+            "health_points": 2239
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4694,
+            "distance": {
+                "amount": 85.0,
+                "unit": "km"
+            },
+            "health_points": 3890
+        },
+        "time_code": "01:23:49"
+    },
+    {
+        "screen_index": "035",
+        "frame_index": 306005,
+        "source_image": "batch_035_frame_0306005.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 47174,
+            "distance": {
+                "amount": 62.0,
+                "unit": "km"
+            },
+            "health_points": 2239
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4576,
+            "distance": {
+                "amount": 120.0,
+                "unit": "km"
+            },
+            "health_points": 3197
+        },
+        "time_code": "01:25:05"
+    },
+    {
+        "screen_index": "036",
+        "frame_index": 309401,
+        "source_image": "batch_036_frame_0309401.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4355,
+            "distance": {
+                "amount": 186.0,
+                "unit": "km"
+            },
+            "health_points": 1307
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4588,
+            "distance": {
+                "amount": 116.0,
+                "unit": "km"
+            },
+            "health_points": 3197
+        },
+        "time_code": "01:26:01"
+    },
+    {
+        "screen_index": "037",
+        "frame_index": 313255,
+        "source_image": "batch_037_frame_0313255.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4546,
+            "distance": {
+                "amount": 128.0,
+                "unit": "km"
+            },
+            "health_points": 1307
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4356,
+            "distance": {
+                "amount": 186.0,
+                "unit": "km"
+            },
+            "health_points": 2437
+        },
+        "time_code": "01:27:06"
+    },
+    {
+        "screen_index": "038",
+        "frame_index": 317500,
+        "source_image": "batch_038_frame_0317500.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4065,
+            "distance": {
+                "amount": 280.0,
+                "unit": "km"
+            },
+            "health_points": 1307
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 925,
+            "distance": {
+                "amount": 1288.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "01:28:16"
+    },
+    {
+        "screen_index": "039",
+        "frame_index": 402830,
+        "source_image": "batch_039_frame_0402830.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 5000,
+            "distance": {
+                "amount": 3.0,
+                "unit": "m"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4664,
+            "distance": {
+                "amount": 94.0,
+                "unit": "km"
+            },
+            "health_points": 4664
+        },
+        "time_code": "01:52:00"
+    },
+    {
+        "screen_index": "040",
+        "frame_index": 407361,
+        "source_image": "batch_040_frame_0407361.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 3455,
+            "distance": {
+                "amount": 499.0,
+                "unit": "km"
+            },
+            "health_points": 4776
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 3679,
+            "distance": {
+                "amount": 414.0,
+                "unit": "km"
+            },
+            "health_points": 4664
+        },
+        "time_code": "01:53:16"
+    },
+    {
+        "screen_index": "041",
+        "frame_index": 410816,
+        "source_image": "batch_041_frame_0410816.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 3869,
+            "distance": {
+                "amount": 346.0,
+                "unit": "km"
+            },
+            "health_points": 3086
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4996,
+            "distance": {
+                "amount": 1.1,
+                "unit": "km"
+            },
+            "health_points": 4664
+        },
+        "time_code": "01:54:13"
+    },
+    {
+        "screen_index": "042",
+        "frame_index": 414698,
+        "source_image": "batch_042_frame_0414698.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4925,
+            "distance": {
+                "amount": 20.0,
+                "unit": "km"
+            },
+            "health_points": 3040
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4948,
+            "distance": {
+                "amount": 14.0,
+                "unit": "km"
+            },
+            "health_points": 4664
+        },
+        "time_code": "01:55:18"
+    },
+    {
+        "screen_index": "043",
+        "frame_index": 419226,
+        "source_image": "batch_043_frame_0419226.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 5000,
+            "distance": {
+                "amount": 11.0,
+                "unit": "m"
+            },
+            "health_points": 3040
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 5000,
+            "distance": {
+                "amount": 25.0,
+                "unit": "m"
+            },
+            "health_points": 4664
+        },
+        "time_code": "01:56:34"
+    },
+    {
+        "screen_index": "044",
+        "frame_index": 423743,
+        "source_image": "batch_044_frame_0423743.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4909,
+            "distance": {
+                "amount": 25.0,
+                "unit": "km"
+            },
+            "health_points": 3040
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4831,
+            "distance": {
+                "amount": 46.0,
+                "unit": "km"
+            },
+            "health_points": 4508
+        },
+        "time_code": "01:57:49"
+    },
+    {
+        "screen_index": "045",
+        "frame_index": 427333,
+        "source_image": "batch_045_frame_0427333.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4884,
+            "distance": {
+                "amount": 32.0,
+                "unit": "km"
+            },
+            "health_points": 2698
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4998,
+            "distance": {
+                "amount": 542.0,
+                "unit": "m"
+            },
+            "health_points": 4508
+        },
+        "time_code": "01:58:49"
+    },
+    {
+        "screen_index": "046",
+        "frame_index": 430035,
+        "source_image": "batch_046_frame_0430035.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4782,
+            "distance": {
+                "amount": 60.0,
+                "unit": "km"
+            },
+            "health_points": 2450
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4853,
+            "distance": {
+                "amount": 40.0,
+                "unit": "km"
+            },
+            "health_points": 4508
+        },
+        "time_code": "01:59:34"
+    },
+    {
+        "screen_index": "047",
+        "frame_index": 434566,
+        "source_image": "batch_047_frame_0434566.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4960,
+            "distance": {
+                "amount": "inf",
+                "unit": "km"
+            },
+            "health_points": 2450
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4853,
+            "distance": {
+                "amount": 40.0,
+                "unit": "km"
+            },
+            "health_points": 4240
+        },
+        "time_code": "02:00:50"
+    },
+    {
+        "screen_index": "048",
+        "frame_index": 439097,
+        "source_image": "batch_048_frame_0439097.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4999,
+            "distance": {
+                "amount": 183.0,
+                "unit": "m"
+            },
+            "health_points": 2450
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4589,
+            "distance": {
+                "amount": 116.0,
+                "unit": "km"
+            },
+            "health_points": 3010
+        },
+        "time_code": "02:02:05"
+    },
+    {
+        "screen_index": "049",
+        "frame_index": 441881,
+        "source_image": "batch_049_frame_0441881.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 3701,
+            "distance": {
+                "amount": 406.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4992,
+            "distance": {
+                "amount": 2.1,
+                "unit": "km"
+            },
+            "health_points": 3010
+        },
+        "time_code": "02:02:52"
+    },
+    {
+        "screen_index": "050",
+        "frame_index": 447370,
+        "source_image": "batch_050_frame_0447370.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 3605,
+            "distance": {
+                "amount": 442.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 2869,
+            "distance": {
+                "amount": 750.0,
+                "unit": "km"
+            },
+            "health_points": 4264
+        },
+        "time_code": "02:04:23"
+    },
+    {
+        "screen_index": "051",
+        "frame_index": 451058,
+        "source_image": "batch_051_frame_0451058.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 3982,
+            "distance": {
+                "amount": 307.0,
+                "unit": "km"
+            },
+            "health_points": 4779
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4203,
+            "distance": {
+                "amount": 234.0,
+                "unit": "km"
+            },
+            "health_points": 4264
+        },
+        "time_code": "02:05:25"
+    },
+    {
+        "screen_index": "052",
+        "frame_index": 455199,
+        "source_image": "batch_052_frame_0455199.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4949,
+            "distance": {
+                "amount": 14.0,
+                "unit": "km"
+            },
+            "health_points": 4779
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 447,
+            "distance": {
+                "amount": 1674.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "02:06:34"
+    },
+    {
+        "screen_index": "053",
+        "frame_index": 460084,
+        "source_image": "batch_053_frame_0460084.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 3391,
+            "distance": {
+                "amount": 524.0,
+                "unit": "km"
+            },
+            "health_points": 4465
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 3926,
+            "distance": {
+                "amount": 326.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "02:07:55"
+    },
+    {
+        "screen_index": "054",
+        "frame_index": 464424,
+        "source_image": "batch_054_frame_0464424.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4871,
+            "distance": {
+                "amount": 35.0,
+                "unit": "km"
+            },
+            "health_points": 4465
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4356,
+            "distance": {
+                "amount": 186.0,
+                "unit": "km"
+            },
+            "health_points": 4485
+        },
+        "time_code": "02:09:08"
+    },
+    {
+        "screen_index": "055",
+        "frame_index": 466772,
+        "source_image": "batch_055_frame_0466772.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4794,
+            "distance": {
+                "amount": 57.0,
+                "unit": "km"
+            },
+            "health_points": 4375
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4854,
+            "distance": {
+                "amount": 40.0,
+                "unit": "km"
+            },
+            "health_points": 4485
+        },
+        "time_code": "02:09:47"
+    },
+    {
+        "screen_index": "056",
+        "frame_index": 469918,
+        "source_image": "batch_056_frame_0469918.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 6,
+            "distance": {
+                "amount": 7751.0,
+                "unit": "km"
+            },
+            "health_points": 4375
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 0,
+            "distance": {
+                "amount": 17189.0,
+                "unit": "km"
+            },
+            "health_points": 4461
+        },
+        "time_code": "02:10:39"
+    },
+    {
+        "screen_index": "057",
+        "frame_index": 472679,
+        "source_image": "batch_057_frame_0472679.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4652,
+            "distance": {
+                "amount": 98.0,
+                "unit": "km"
+            },
+            "health_points": 3979
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4850,
+            "distance": {
+                "amount": 41.0,
+                "unit": "km"
+            },
+            "health_points": 4461
+        },
+        "time_code": "02:11:25"
+    },
+    {
+        "screen_index": "058",
+        "frame_index": 475575,
+        "source_image": "batch_058_frame_0475575.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4461,
+            "distance": {
+                "amount": 154.0,
+                "unit": "km"
+            },
+            "health_points": 3979
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 3862,
+            "distance": {
+                "amount": 349.0,
+                "unit": "km"
+            },
+            "health_points": 3263
+        },
+        "time_code": "02:12:14"
+    },
+    {
+        "screen_index": "059",
+        "frame_index": 479179,
+        "source_image": "batch_059_frame_0479179.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4301,
+            "distance": {
+                "amount": 203.0,
+                "unit": "km"
+            },
+            "health_points": 3979
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 3902,
+            "distance": {
+                "amount": 335.0,
+                "unit": "km"
+            },
+            "health_points": 2265
+        },
+        "time_code": "02:13:14"
+    },
+    {
+        "screen_index": "060",
+        "frame_index": 483460,
+        "source_image": "batch_060_frame_0483460.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 21744,
+            "distance": {
+                "amount": 810.0,
+                "unit": "km"
+            },
+            "health_points": 3709
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 2852,
+            "distance": {
+                "amount": 758.0,
+                "unit": "km"
+            },
+            "health_points": 2265
+        },
+        "time_code": "02:14:25"
+    },
+    {
+        "screen_index": "061",
+        "frame_index": 487106,
+        "source_image": "batch_061_frame_0487106.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4677,
+            "distance": {
+                "amount": 90.0,
+                "unit": "km"
+            },
+            "health_points": 3709
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4338,
+            "distance": {
+                "amount": 192.0,
+                "unit": "km"
+            },
+            "health_points": 1248
+        },
+        "time_code": "02:15:26"
+    },
+    {
+        "screen_index": "062",
+        "frame_index": 489617,
+        "source_image": "batch_062_frame_0489617.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 3990,
+            "distance": {
+                "amount": 305.0,
+                "unit": "km"
+            },
+            "health_points": 3451
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4076,
+            "distance": {
+                "amount": 276.0,
+                "unit": "km"
+            },
+            "health_points": 1248
+        },
+        "time_code": "02:16:08"
+    },
+    {
+        "screen_index": "063",
+        "frame_index": 492777,
+        "source_image": "batch_063_frame_0492777.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4962,
+            "distance": {
+                "amount": 10.0,
+                "unit": "km"
+            },
+            "health_points": 3437
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4966,
+            "distance": {
+                "amount": 9.3,
+                "unit": "km"
+            },
+            "health_points": 1248
+        },
+        "time_code": "02:17:01"
+    },
+    {
+        "screen_index": "064",
+        "frame_index": 495038,
+        "source_image": "batch_064_frame_0495038.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4968,
+            "distance": {
+                "amount": 8.6,
+                "unit": "km"
+            },
+            "health_points": 3437
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4966,
+            "distance": {
+                "amount": 9.1,
+                "unit": "km"
+            },
+            "health_points": 1241
+        },
+        "time_code": "02:17:38"
+    },
+    {
+        "screen_index": "065",
+        "frame_index": 497431,
+        "source_image": "batch_065_frame_0497431.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4469,
+            "distance": {
+                "amount": 151.0,
+                "unit": "km"
+            },
+            "health_points": 3001
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4578,
+            "distance": {
+                "amount": 19.0,
+                "unit": "km"
+            },
+            "health_points": 1241
+        },
+        "time_code": "02:18:18"
+    },
+    {
+        "screen_index": "066",
+        "frame_index": 500310,
+        "source_image": "batch_066_frame_0500310.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 3,
+            "distance": {
+                "amount": 8002.0,
+                "unit": "km"
+            },
+            "health_points": 2997
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4,
+            "distance": {
+                "amount": 7918.0,
+                "unit": "km"
+            },
+            "health_points": 1241
+        },
+        "time_code": "02:19:06"
+    },
+    {
+        "screen_index": "067",
+        "frame_index": 502186,
+        "source_image": "batch_067_frame_0502186.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 4716,
+            "distance": {
+                "amount": 79.0,
+                "unit": "km"
+            },
+            "health_points": 1867
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4942,
+            "distance": {
+                "amount": 16.0,
+                "unit": "km"
+            },
+            "health_points": 1241
+        },
+        "time_code": "02:19:38"
+    },
+    {
+        "screen_index": "068",
+        "frame_index": 506591,
+        "source_image": "batch_068_frame_0506591.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "FINBARR",
+            "round_score": 3,
+            "distance": {
+                "amount": 2.169,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 2368,
+            "distance": {
+                "amount": 1009.0,
+                "unit": "km"
+            },
+            "health_points": 1241
+        },
+        "time_code": "02:20:51"
+    },
+    {
+        "screen_index": "069",
+        "frame_index": 560252,
+        "source_image": "batch_069_frame_0560252.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 5000,
+            "distance": {
+                "amount": 7.0,
+                "unit": "m"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 5000,
+            "distance": {
+                "amount": 20.0,
+                "unit": "m"
+            },
+            "health_points": 5000
+        },
+        "time_code": "02:35:46"
+    },
+    {
+        "screen_index": "070",
+        "frame_index": 563311,
+        "source_image": "batch_070_frame_0563311.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4677,
+            "distance": {
+                "amount": 90.0,
+                "unit": "km"
+            },
+            "health_points": 4750
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 4844,
+            "distance": {
+                "amount": 43.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "02:36:37"
+    },
+    {
+        "screen_index": "071",
+        "frame_index": 567294,
+        "source_image": "batch_071_frame_0567294.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 5000,
+            "distance": {
+                "amount": 18.0,
+                "unit": "m"
+            },
+            "health_points": 4750
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 5000,
+            "distance": {
+                "amount": 86.0,
+                "unit": "m"
+            },
+            "health_points": 5000
+        },
+        "time_code": "02:37:44"
+    },
+    {
+        "screen_index": "072",
+        "frame_index": 571825,
+        "source_image": "batch_072_frame_0571825.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 3302,
+            "distance": {
+                "amount": 560.0,
+                "unit": "km"
+            },
+            "health_points": 1542
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 4585,
+            "distance": {
+                "amount": 117.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "02:38:59"
+    },
+    {
+        "screen_index": "073",
+        "frame_index": 576356,
+        "source_image": "batch_073_frame_0576356.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4827,
+            "distance": {
+                "amount": 48.0,
+                "unit": "km"
+            },
+            "health_points": 1458
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 4855,
+            "distance": {
+                "amount": 40.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "02:40:15"
+    },
+    {
+        "screen_index": "074",
+        "frame_index": 579016,
+        "source_image": "batch_074_frame_0579016.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4994,
+            "distance": {
+                "amount": 1.6,
+                "unit": "km"
+            },
+            "health_points": 1458
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 4960,
+            "distance": {
+                "amount": "inf",
+                "unit": "km"
+            },
+            "health_points": 4932
+        },
+        "time_code": "02:40:59"
+    },
+    {
+        "screen_index": "075",
+        "frame_index": 583547,
+        "source_image": "batch_075_frame_0583547.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4852,
+            "distance": {
+                "amount": 41.0,
+                "unit": "km"
+            },
+            "health_points": 1416
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 4864,
+            "distance": {
+                "amount": 37.0,
+                "unit": "km"
+            },
+            "health_points": 4932
+        },
+        "time_code": "02:42:15"
+    },
+    {
+        "screen_index": "076",
+        "frame_index": 587952,
+        "source_image": "batch_076_frame_0587952.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4443,
+            "distance": {
+                "amount": 160.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 4937,
+            "distance": {
+                "amount": 17.0,
+                "unit": "km"
+            },
+            "health_points": 4932
+        },
+        "time_code": "02:43:28"
+    },
+    {
+        "screen_index": "077",
+        "frame_index": 591480,
+        "source_image": "batch_077_frame_0591480.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4361,
+            "distance": {
+                "amount": 185.0,
+                "unit": "km"
+            },
+            "health_points": 4511
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 4850,
+            "distance": {
+                "amount": 41.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "02:44:27"
+    },
+    {
+        "screen_index": "078",
+        "frame_index": 593238,
+        "source_image": "batch_078_frame_0593238.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4439,
+            "distance": {
+                "amount": 161.0,
+                "unit": "km"
+            },
+            "health_points": 4195
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 4650,
+            "distance": {
+                "amount": 98.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "02:44:57"
+    },
+    {
+        "screen_index": "079",
+        "frame_index": 596103,
+        "source_image": "batch_079_frame_0596103.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4266,
+            "distance": {
+                "amount": 214.0,
+                "unit": "km"
+            },
+            "health_points": 4195
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 3788,
+            "distance": {
+                "amount": 375.0,
+                "unit": "km"
+            },
+            "health_points": 4522
+        },
+        "time_code": "02:45:44"
+    },
+    {
+        "screen_index": "080",
+        "frame_index": 598437,
+        "source_image": "batch_080_frame_0598437.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4956,
+            "distance": {
+                "amount": 12.0,
+                "unit": "km"
+            },
+            "health_points": 4189
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 4959,
+            "distance": {
+                "amount": 11.0,
+                "unit": "km"
+            },
+            "health_points": 4522
+        },
+        "time_code": "02:46:23"
+    },
+    {
+        "screen_index": "081",
+        "frame_index": 600021,
+        "source_image": "batch_081_frame_0600021.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4927,
+            "distance": {
+                "amount": 20.0,
+                "unit": "km"
+            },
+            "health_points": 4189
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 4908,
+            "distance": {
+                "amount": 25.0,
+                "unit": "km"
+            },
+            "health_points": 4494
+        },
+        "time_code": "02:46:50"
+    },
+    {
+        "screen_index": "082",
+        "frame_index": 602990,
+        "source_image": "batch_082_frame_0602990.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4090,
+            "distance": {
+                "amount": 271.0,
+                "unit": "km"
+            },
+            "health_points": 1987
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 4971,
+            "distance": {
+                "amount": 7.8,
+                "unit": "km"
+            },
+            "health_points": 4494
+        },
+        "time_code": "02:47:39"
+    },
+    {
+        "screen_index": "083",
+        "frame_index": 604549,
+        "source_image": "batch_083_frame_0604549.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 3649,
+            "distance": {
+                "amount": 425.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MK",
+            "round_score": 4863,
+            "distance": {
+                "amount": 37.0,
+                "unit": "km"
+            },
+            "health_points": 4494
+        },
+        "time_code": "02:48:05"
+    },
+    {
+        "screen_index": "084",
+        "frame_index": 717963,
+        "source_image": "batch_084_frame_0717963.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4956,
+            "distance": {
+                "amount": 12.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 3656,
+            "distance": {
+                "amount": 423.0,
+                "unit": "km"
+            },
+            "health_points": 3700
+        },
+        "time_code": "03:19:38"
+    },
+    {
+        "screen_index": "085",
+        "frame_index": 722480,
+        "source_image": "batch_085_frame_0722480.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4925,
+            "distance": {
+                "amount": 20.0,
+                "unit": "km"
+            },
+            "health_points": 4994
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4931,
+            "distance": {
+                "amount": 19.0,
+                "unit": "km"
+            },
+            "health_points": 3700
+        },
+        "time_code": "03:20:53"
+    },
+    {
+        "screen_index": "086",
+        "frame_index": 726997,
+        "source_image": "batch_086_frame_0726997.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4952,
+            "distance": {
+                "amount": 13.0,
+                "unit": "km"
+            },
+            "health_points": 4994
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4211,
+            "distance": {
+                "amount": 232.0,
+                "unit": "km"
+            },
+            "health_points": 2588
+        },
+        "time_code": "03:22:08"
+    },
+    {
+        "screen_index": "087",
+        "frame_index": 731528,
+        "source_image": "batch_087_frame_0731528.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4616,
+            "distance": {
+                "amount": 108.0,
+                "unit": "km"
+            },
+            "health_points": 4994
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4472,
+            "distance": {
+                "amount": 181.0,
+                "unit": "km"
+            },
+            "health_points": 2300
+        },
+        "time_code": "03:23:24"
+    },
+    {
+        "screen_index": "088",
+        "frame_index": 735573,
+        "source_image": "batch_088_frame_0735573.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4270,
+            "distance": {
+                "amount": 213.0,
+                "unit": "km"
+            },
+            "health_points": 4096
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4869,
+            "distance": {
+                "amount": 36.0,
+                "unit": "km"
+            },
+            "health_points": 2300
+        },
+        "time_code": "03:24:31"
+    },
+    {
+        "screen_index": "089",
+        "frame_index": 739039,
+        "source_image": "batch_089_frame_0739039.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4999,
+            "distance": {
+                "amount": 400.0,
+                "unit": "m"
+            },
+            "health_points": 4096
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4999,
+            "distance": {
+                "amount": 347.0,
+                "unit": "m"
+            },
+            "health_points": 2300
+        },
+        "time_code": "03:25:29"
+    },
+    {
+        "screen_index": "090",
+        "frame_index": 741578,
+        "source_image": "batch_090_frame_0741578.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 5000,
+            "distance": {
+                "amount": 19.0,
+                "unit": "m"
+            },
+            "health_points": 4096
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 5000,
+            "distance": {
+                "amount": 10.0,
+                "unit": "m"
+            },
+            "health_points": 2300
+        },
+        "time_code": "03:26:11"
+    },
+    {
+        "screen_index": "091",
+        "frame_index": 745800,
+        "source_image": "batch_091_frame_0745800.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 5000,
+            "distance": {
+                "amount": 39.0,
+                "unit": "m"
+            },
+            "health_points": 4096
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4907,
+            "distance": {
+                "amount": 25.0,
+                "unit": "km"
+            },
+            "health_points": 1974
+        },
+        "time_code": "03:27:22"
+    },
+    {
+        "screen_index": "092",
+        "frame_index": 749668,
+        "source_image": "batch_092_frame_0749668.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4999,
+            "distance": {
+                "amount": 219.0,
+                "unit": "m"
+            },
+            "health_points": 4096
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4865,
+            "distance": {
+                "amount": 37.0,
+                "unit": "km"
+            },
+            "health_points": 1438
+        },
+        "time_code": "03:28:26"
+    },
+    {
+        "screen_index": "093",
+        "frame_index": 754185,
+        "source_image": "batch_093_frame_0754185.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4820,
+            "distance": {
+                "amount": 49.0,
+                "unit": "km"
+            },
+            "health_points": 4096
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4770,
+            "distance": {
+                "amount": 64.0,
+                "unit": "km"
+            },
+            "health_points": 1213
+        },
+        "time_code": "03:29:42"
+    },
+    {
+        "screen_index": "094",
+        "frame_index": 758713,
+        "source_image": "batch_094_frame_0758713.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4999,
+            "distance": {
+                "amount": 321.0,
+                "unit": "m"
+            },
+            "health_points": 4096
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4999,
+            "distance": {
+                "amount": 243.0,
+                "unit": "m"
+            },
+            "health_points": 1213
+        },
+        "time_code": "03:30:57"
+    },
+    {
+        "screen_index": "095",
+        "frame_index": 762716,
+        "source_image": "batch_095_frame_0762716.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 5000,
+            "distance": {
+                "amount": 98.0,
+                "unit": "m"
+            },
+            "health_points": 4096
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4895,
+            "distance": {
+                "amount": 29.0,
+                "unit": "km"
+            },
+            "health_points": 635
+        },
+        "time_code": "03:32:04"
+    },
+    {
+        "screen_index": "096",
+        "frame_index": 767233,
+        "source_image": "batch_096_frame_0767233.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4527,
+            "distance": {
+                "amount": 134.0,
+                "unit": "km"
+            },
+            "health_points": 2591
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4957,
+            "distance": {
+                "amount": 12.0,
+                "unit": "km"
+            },
+            "health_points": 635
+        },
+        "time_code": "03:33:20"
+    },
+    {
+        "screen_index": "097",
+        "frame_index": 769716,
+        "source_image": "batch_097_frame_0769716.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4966,
+            "distance": {
+                "amount": 9.1,
+                "unit": "km"
+            },
+            "health_points": 2591
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4965,
+            "distance": {
+                "amount": 9.6,
+                "unit": "km"
+            },
+            "health_points": 629
+        },
+        "time_code": "03:34:01"
+    },
+    {
+        "screen_index": "098",
+        "frame_index": 774247,
+        "source_image": "batch_098_frame_0774247.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4652,
+            "distance": {
+                "amount": 97.0,
+                "unit": "km"
+            },
+            "health_points": 1271
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4982,
+            "distance": {
+                "amount": 4.9,
+                "unit": "km"
+            },
+            "health_points": 629
+        },
+        "time_code": "03:35:17"
+    },
+    {
+        "screen_index": "099",
+        "frame_index": 778638,
+        "source_image": "batch_099_frame_0778638.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4540,
+            "distance": {
+                "amount": 130.0,
+                "unit": "km"
+            },
+            "health_points": 1271
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4169,
+            "distance": {
+                "amount": 245.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "03:36:30"
+    },
+    {
+        "screen_index": "100",
+        "frame_index": 783315,
+        "source_image": "batch_100_frame_0783315.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 2943,
+            "distance": {
+                "amount": 716.0,
+                "unit": "km"
+            },
+            "health_points": 3514
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4429,
+            "distance": {
+                "amount": 164.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "03:37:48"
+    },
+    {
+        "screen_index": "101",
+        "frame_index": 785705,
+        "source_image": "batch_101_frame_0785705.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 3907,
+            "distance": {
+                "amount": 333.0,
+                "unit": "km"
+            },
+            "health_points": 3514
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 3670,
+            "distance": {
+                "amount": 418.0,
+                "unit": "km"
+            },
+            "health_points": 4763
+        },
+        "time_code": "03:38:28"
+    },
+    {
+        "screen_index": "102",
+        "frame_index": 789174,
+        "source_image": "batch_102_frame_0789174.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 3766,
+            "distance": {
+                "amount": 383.0,
+                "unit": "km"
+            },
+            "health_points": 2448
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4477,
+            "distance": {
+                "amount": 149.0,
+                "unit": "km"
+            },
+            "health_points": 4763
+        },
+        "time_code": "03:39:26"
+    },
+    {
+        "screen_index": "103",
+        "frame_index": 793705,
+        "source_image": "batch_103_frame_0793705.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 3993,
+            "distance": {
+                "amount": 303.0,
+                "unit": "km"
+            },
+            "health_points": 2122
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4156,
+            "distance": {
+                "amount": 250.0,
+                "unit": "km"
+            },
+            "health_points": 4763
+        },
+        "time_code": "03:40:41"
+    },
+    {
+        "screen_index": "104",
+        "frame_index": 796261,
+        "source_image": "batch_104_frame_0796261.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4173,
+            "distance": {
+                "amount": 244.0,
+                "unit": "km"
+            },
+            "health_points": 472
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4833,
+            "distance": {
+                "amount": 46.0,
+                "unit": "km"
+            },
+            "health_points": 4763
+        },
+        "time_code": "03:41:24"
+    },
+    {
+        "screen_index": "105",
+        "frame_index": 798595,
+        "source_image": "batch_105_frame_0798595.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4696,
+            "distance": {
+                "amount": 85.0,
+                "unit": "km"
+            },
+            "health_points": 472
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4695,
+            "distance": {
+                "amount": 85.0,
+                "unit": "km"
+            },
+            "health_points": 4761
+        },
+        "time_code": "03:42:03"
+    },
+    {
+        "screen_index": "106",
+        "frame_index": 802913,
+        "source_image": "batch_106_frame_0802913.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 3080,
+            "distance": {
+                "amount": 654.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 3307,
+            "distance": {
+                "amount": 558.0,
+                "unit": "km"
+            },
+            "health_points": 4761
+        },
+        "time_code": "03:43:15"
+    },
+    {
+        "screen_index": "107",
+        "frame_index": 807017,
+        "source_image": "batch_107_frame_0807017.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 2897,
+            "distance": {
+                "amount": 737.0,
+                "unit": "km"
+            },
+            "health_points": 3310
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4587,
+            "distance": {
+                "amount": 116.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "03:44:23"
+    },
+    {
+        "screen_index": "108",
+        "frame_index": 809601,
+        "source_image": "batch_108_frame_0809601.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4124,
+            "distance": {
+                "amount": 260.0,
+                "unit": "km"
+            },
+            "health_points": 3310
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 2353,
+            "distance": {
+                "amount": 1018.0,
+                "unit": "km"
+            },
+            "health_points": 3229
+        },
+        "time_code": "03:45:06"
+    },
+    {
+        "screen_index": "109",
+        "frame_index": 811862,
+        "source_image": "batch_109_frame_0811862.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4369,
+            "distance": {
+                "amount": 182.0,
+                "unit": "km"
+            },
+            "health_points": 3170
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4462,
+            "distance": {
+                "amount": 184.0,
+                "unit": "km"
+            },
+            "health_points": 3229
+        },
+        "time_code": "03:45:44"
+    },
+    {
+        "screen_index": "110",
+        "frame_index": 814542,
+        "source_image": "batch_110_frame_0814542.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 836,
+            "distance": {
+                "amount": 2415.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "JAMABI",
+            "round_score": 4754,
+            "distance": {
+                "amount": 68.0,
+                "unit": "km"
+            },
+            "health_points": 3229
+        },
+        "time_code": "03:46:29"
+    },
+    {
+        "screen_index": "111",
+        "frame_index": 884105,
+        "source_image": "batch_111_frame_0884105.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4998,
+            "distance": {
+                "amount": 531.0,
+                "unit": "m"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4583,
+            "distance": {
+                "amount": 118.0,
+                "unit": "km"
+            },
+            "health_points": 4585
+        },
+        "time_code": "04:05:49"
+    },
+    {
+        "screen_index": "112",
+        "frame_index": 888636,
+        "source_image": "batch_112_frame_0888636.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4713,
+            "distance": {
+                "amount": 80.0,
+                "unit": "km"
+            },
+            "health_points": 4713
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 5000,
+            "distance": {
+                "amount": 15.0,
+                "unit": "m"
+            },
+            "health_points": 4585
+        },
+        "time_code": "04:07:05"
+    },
+    {
+        "screen_index": "113",
+        "frame_index": 893021,
+        "source_image": "batch_113_frame_0893021.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4998,
+            "distance": {
+                "amount": 453.0,
+                "unit": "m"
+            },
+            "health_points": 4713
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4503,
+            "distance": {
+                "amount": 141.0,
+                "unit": "km"
+            },
+            "health_points": 3843
+        },
+        "time_code": "04:08:18"
+    },
+    {
+        "screen_index": "114",
+        "frame_index": 897538,
+        "source_image": "batch_114_frame_0897538.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4760,
+            "distance": {
+                "amount": 66.0,
+                "unit": "km"
+            },
+            "health_points": 4713
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4474,
+            "distance": {
+                "amount": 150.0,
+                "unit": "km"
+            },
+            "health_points": 3271
+        },
+        "time_code": "04:09:33"
+    },
+    {
+        "screen_index": "115",
+        "frame_index": 901038,
+        "source_image": "batch_115_frame_0901038.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4997,
+            "distance": {
+                "amount": 718.0,
+                "unit": "m"
+            },
+            "health_points": 4713
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4969,
+            "distance": {
+                "amount": 8.4,
+                "unit": "km"
+            },
+            "health_points": 3201
+        },
+        "time_code": "04:10:32"
+    },
+    {
+        "screen_index": "116",
+        "frame_index": 905566,
+        "source_image": "batch_116_frame_0905566.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 5000,
+            "distance": {
+                "amount": 89.0,
+                "unit": "m"
+            },
+            "health_points": 4713
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 5000,
+            "distance": {
+                "amount": 90.0,
+                "unit": "m"
+            },
+            "health_points": 3201
+        },
+        "time_code": "04:11:47"
+    },
+    {
+        "screen_index": "117",
+        "frame_index": 909077,
+        "source_image": "batch_117_frame_0909077.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 5000,
+            "distance": {
+                "amount": 28.0,
+                "unit": "m"
+            },
+            "health_points": 4713
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 5000,
+            "distance": {
+                "amount": 92.0,
+                "unit": "m"
+            },
+            "health_points": 3201
+        },
+        "time_code": "04:12:46"
+    },
+    {
+        "screen_index": "118",
+        "frame_index": 913094,
+        "source_image": "batch_118_frame_0913094.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4998,
+            "distance": {
+                "amount": 524.0,
+                "unit": "m"
+            },
+            "health_points": 4713
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4997,
+            "distance": {
+                "amount": 710.0,
+                "unit": "m"
+            },
+            "health_points": 3197
+        },
+        "time_code": "04:13:53"
+    },
+    {
+        "screen_index": "119",
+        "frame_index": 916816,
+        "source_image": "batch_119_frame_0916816.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 5000,
+            "distance": {
+                "amount": 5.0,
+                "unit": "m"
+            },
+            "health_points": 4713
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4826,
+            "distance": {
+                "amount": 48.0,
+                "unit": "km"
+            },
+            "health_points": 2414
+        },
+        "time_code": "04:14:55"
+    },
+    {
+        "screen_index": "120",
+        "frame_index": 921347,
+        "source_image": "batch_120_frame_0921347.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4932,
+            "distance": {
+                "amount": 18.0,
+                "unit": "km"
+            },
+            "health_points": 4675
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4947,
+            "distance": {
+                "amount": 14.0,
+                "unit": "km"
+            },
+            "health_points": 2414
+        },
+        "time_code": "04:16:11"
+    },
+    {
+        "screen_index": "121",
+        "frame_index": 923636,
+        "source_image": "batch_121_frame_0923636.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4891,
+            "distance": {
+                "amount": 30.0,
+                "unit": "km"
+            },
+            "health_points": 4675
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4884,
+            "distance": {
+                "amount": 32.0,
+                "unit": "km"
+            },
+            "health_points": 2379
+        },
+        "time_code": "04:16:49"
+    },
+    {
+        "screen_index": "122",
+        "frame_index": 926782,
+        "source_image": "batch_122_frame_0926782.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4988,
+            "distance": {
+                "amount": 3.3,
+                "unit": "km"
+            },
+            "health_points": 4675
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4610,
+            "distance": {
+                "amount": 110.0,
+                "unit": "km"
+            },
+            "health_points": 300
+        },
+        "time_code": "04:17:41"
+    },
+    {
+        "screen_index": "123",
+        "frame_index": 931313,
+        "source_image": "batch_123_frame_0931313.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4048,
+            "distance": {
+                "amount": 285.0,
+                "unit": "km"
+            },
+            "health_points": 3283
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4512,
+            "distance": {
+                "amount": 139.0,
+                "unit": "km"
+            },
+            "health_points": 300
+        },
+        "time_code": "04:18:57"
+    },
+    {
+        "screen_index": "124",
+        "frame_index": 934268,
+        "source_image": "batch_124_frame_0934268.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4991,
+            "distance": {
+                "amount": 2.5,
+                "unit": "km"
+            },
+            "health_points": 3283
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4972,
+            "distance": {
+                "amount": 7.5,
+                "unit": "km"
+            },
+            "health_points": 186
+        },
+        "time_code": "04:19:46"
+    },
+    {
+        "screen_index": "125",
+        "frame_index": 937914,
+        "source_image": "batch_125_frame_0937914.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4632,
+            "distance": {
+                "amount": 103.0,
+                "unit": "km"
+            },
+            "health_points": 2002
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4998,
+            "distance": {
+                "amount": 453.0,
+                "unit": "m"
+            },
+            "health_points": 186
+        },
+        "time_code": "04:20:47"
+    },
+    {
+        "screen_index": "126",
+        "frame_index": 942102,
+        "source_image": "batch_126_frame_0942102.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 5000,
+            "distance": {
+                "amount": 87.0,
+                "unit": "m"
+            },
+            "health_points": 2002
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 5000,
+            "distance": {
+                "amount": 22.0,
+                "unit": "m"
+            },
+            "health_points": 186
+        },
+        "time_code": "04:21:57"
+    },
+    {
+        "screen_index": "127",
+        "frame_index": 944827,
+        "source_image": "batch_127_frame_0944827.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 2532,
+            "distance": {
+                "amount": 919.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4997,
+            "distance": {
+                "amount": 912.0,
+                "unit": "m"
+            },
+            "health_points": 186
+        },
+        "time_code": "04:22:42"
+    },
+    {
+        "screen_index": "128",
+        "frame_index": 953752,
+        "source_image": "batch_128_frame_0953752.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4995,
+            "distance": {
+                "amount": 1.4,
+                "unit": "km"
+            },
+            "health_points": 4998
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4997,
+            "distance": {
+                "amount": 806.0,
+                "unit": "m"
+            },
+            "health_points": 5000
+        },
+        "time_code": "04:25:11"
+    },
+    {
+        "screen_index": "129",
+        "frame_index": 958269,
+        "source_image": "batch_129_frame_0958269.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 2414,
+            "distance": {
+                "amount": 983.0,
+                "unit": "km"
+            },
+            "health_points": 2277
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4228,
+            "distance": {
+                "amount": 226.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "04:26:27"
+    },
+    {
+        "screen_index": "130",
+        "frame_index": 960603,
+        "source_image": "batch_130_frame_0960603.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 3507,
+            "distance": {
+                "amount": 479.0,
+                "unit": "km"
+            },
+            "health_points": 2277
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 3202,
+            "distance": {
+                "amount": 602.0,
+                "unit": "km"
+            },
+            "health_points": 4695
+        },
+        "time_code": "04:27:06"
+    },
+    {
+        "screen_index": "131",
+        "frame_index": 964339,
+        "source_image": "batch_131_frame_0964339.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4156,
+            "distance": {
+                "amount": 250.0,
+                "unit": "km"
+            },
+            "health_points": 1673
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4458,
+            "distance": {
+                "amount": 155.0,
+                "unit": "km"
+            },
+            "health_points": 4695
+        },
+        "time_code": "04:28:08"
+    },
+    {
+        "screen_index": "132",
+        "frame_index": 966631,
+        "source_image": "batch_132_frame_0966631.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4923,
+            "distance": {
+                "amount": 21.0,
+                "unit": "km"
+            },
+            "health_points": 1673
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4605,
+            "distance": {
+                "amount": 111.0,
+                "unit": "km"
+            },
+            "health_points": 4218
+        },
+        "time_code": "04:28:46"
+    },
+    {
+        "screen_index": "133",
+        "frame_index": 967830,
+        "source_image": "batch_133_frame_0967830.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4293,
+            "distance": {
+                "amount": 206.0,
+                "unit": "km"
+            },
+            "health_points": 1673
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 3585,
+            "distance": {
+                "amount": 449.0,
+                "unit": "km"
+            },
+            "health_points": 2802
+        },
+        "time_code": "04:29:06"
+    },
+    {
+        "screen_index": "134",
+        "frame_index": 971965,
+        "source_image": "batch_134_frame_0971965.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4993,
+            "distance": {
+                "amount": 1.8,
+                "unit": "km"
+            },
+            "health_points": 1673
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4714,
+            "distance": {
+                "amount": 79.0,
+                "unit": "km"
+            },
+            "health_points": 2104
+        },
+        "time_code": "04:30:15"
+    },
+    {
+        "screen_index": "135",
+        "frame_index": 975204,
+        "source_image": "batch_135_frame_0975204.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4345,
+            "distance": {
+                "amount": 190.0,
+                "unit": "km"
+            },
+            "health_points": 1673
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 896,
+            "distance": {
+                "amount": 2321.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "04:31:09"
+    },
+    {
+        "screen_index": "136",
+        "frame_index": 979544,
+        "source_image": "batch_136_frame_0979544.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 3623,
+            "distance": {
+                "amount": 435.0,
+                "unit": "km"
+            },
+            "health_points": 4995
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 3628,
+            "distance": {
+                "amount": 433.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "04:32:22"
+    },
+    {
+        "screen_index": "137",
+        "frame_index": 982288,
+        "source_image": "batch_137_frame_0982288.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 5000,
+            "distance": {
+                "amount": 49.0,
+                "unit": "m"
+            },
+            "health_points": 4995
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 5000,
+            "distance": {
+                "amount": 48.0,
+                "unit": "m"
+            },
+            "health_points": 5000
+        },
+        "time_code": "04:33:07"
+    },
+    {
+        "screen_index": "138",
+        "frame_index": 983987,
+        "source_image": "batch_138_frame_0983987.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4822,
+            "distance": {
+                "amount": 49.0,
+                "unit": "km"
+            },
+            "health_points": 4995
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4681,
+            "distance": {
+                "amount": 89.0,
+                "unit": "km"
+            },
+            "health_points": 4788
+        },
+        "time_code": "04:33:36"
+    },
+    {
+        "screen_index": "139",
+        "frame_index": 986720,
+        "source_image": "batch_139_frame_0986720.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4489,
+            "distance": {
+                "amount": 145.0,
+                "unit": "km"
+            },
+            "health_points": 4995
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4391,
+            "distance": {
+                "amount": 175.0,
+                "unit": "km"
+            },
+            "health_points": 4592
+        },
+        "time_code": "04:34:21"
+    },
+    {
+        "screen_index": "140",
+        "frame_index": 988346,
+        "source_image": "batch_140_frame_0988346.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4047,
+            "distance": {
+                "amount": 285.0,
+                "unit": "km"
+            },
+            "health_points": 4951
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4069,
+            "distance": {
+                "amount": 278.0,
+                "unit": "km"
+            },
+            "health_points": 4592
+        },
+        "time_code": "04:34:48"
+    },
+    {
+        "screen_index": "141",
+        "frame_index": 992877,
+        "source_image": "batch_141_frame_0992877.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 2186,
+            "distance": {
+                "amount": 1117.0,
+                "unit": "km"
+            },
+            "health_points": 3586
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 2732,
+            "distance": {
+                "amount": 816.0,
+                "unit": "km"
+            },
+            "health_points": 4592
+        },
+        "time_code": "04:36:04"
+    },
+    {
+        "screen_index": "142",
+        "frame_index": 996481,
+        "source_image": "batch_142_frame_0996481.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4210,
+            "distance": {
+                "amount": 232.0,
+                "unit": "km"
+            },
+            "health_points": 2458
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 4586,
+            "distance": {
+                "amount": 117.0,
+                "unit": "km"
+            },
+            "health_points": 4592
+        },
+        "time_code": "04:37:04"
+    },
+    {
+        "screen_index": "143",
+        "frame_index": 1001012,
+        "source_image": "batch_143_frame_1001012.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4180,
+            "distance": {
+                "amount": 242.0,
+                "unit": "km"
+            },
+            "health_points": 2458
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 3627,
+            "distance": {
+                "amount": 433.0,
+                "unit": "km"
+            },
+            "health_points": 3210
+        },
+        "time_code": "04:38:20"
+    },
+    {
+        "screen_index": "144",
+        "frame_index": 1005420,
+        "source_image": "batch_144_frame_1005420.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 5,
+            "distance": {
+                "amount": 9225.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "KFL",
+            "round_score": 3371,
+            "distance": {
+                "amount": 532.0,
+                "unit": "km"
+            },
+            "health_points": 3210
+        },
+        "time_code": "04:39:33"
+    },
+    {
+        "screen_index": "145",
+        "frame_index": 1050959,
+        "source_image": "batch_145_frame_1050959.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4326,
+            "distance": {
+                "amount": 195.0,
+                "unit": "km"
+            },
+            "health_points": 2030
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4926,
+            "distance": {
+                "amount": 20.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "04:52:13"
+    },
+    {
+        "screen_index": "146",
+        "frame_index": 1055490,
+        "source_image": "batch_146_frame_1055490.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4485,
+            "distance": {
+                "amount": 147.0,
+                "unit": "km"
+            },
+            "health_points": 1050
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4975,
+            "distance": {
+                "amount": 6.7,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "04:53:29"
+    },
+    {
+        "screen_index": "147",
+        "frame_index": 1060007,
+        "source_image": "batch_147_frame_1060007.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4991,
+            "distance": {
+                "amount": 2.5,
+                "unit": "km"
+            },
+            "health_points": 1050
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 44264,
+            "distance": {
+                "amount": 165.0,
+                "unit": "km"
+            },
+            "health_points": 4433
+        },
+        "time_code": "04:54:44"
+    },
+    {
+        "screen_index": "148",
+        "frame_index": 1064524,
+        "source_image": "batch_148_frame_1064524.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 5000,
+            "distance": {
+                "amount": 23.0,
+                "unit": "m"
+            },
+            "health_points": 1050
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 3638,
+            "distance": {
+                "amount": 429.0,
+                "unit": "km"
+            },
+            "health_points": 2390
+        },
+        "time_code": "04:55:59"
+    },
+    {
+        "screen_index": "149",
+        "frame_index": 1069055,
+        "source_image": "batch_149_frame_1069055.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4985,
+            "distance": {
+                "amount": 4.1,
+                "unit": "km"
+            },
+            "health_points": 1050
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4974,
+            "distance": {
+                "amount": 6.9,
+                "unit": "km"
+            },
+            "health_points": 2368
+        },
+        "time_code": "04:57:15"
+    },
+    {
+        "screen_index": "150",
+        "frame_index": 1073572,
+        "source_image": "batch_150_frame_1073572.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 5000,
+            "distance": {
+                "amount": 109.0,
+                "unit": "m"
+            },
+            "health_points": 1050
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4952,
+            "distance": {
+                "amount": 13.0,
+                "unit": "km"
+            },
+            "health_points": 2248
+        },
+        "time_code": "04:58:30"
+    },
+    {
+        "screen_index": "151",
+        "frame_index": 1078089,
+        "source_image": "batch_151_frame_1078089.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4795,
+            "distance": {
+                "amount": 56.0,
+                "unit": "km"
+            },
+            "health_points": 1050
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4580,
+            "distance": {
+                "amount": 118.0,
+                "unit": "km"
+            },
+            "health_points": 1603
+        },
+        "time_code": "04:59:46"
+    },
+    {
+        "screen_index": "152",
+        "frame_index": 1080968,
+        "source_image": "batch_152_frame_1080968.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4692,
+            "distance": {
+                "amount": 86.0,
+                "unit": "km"
+            },
+            "health_points": 848
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4773,
+            "distance": {
+                "amount": 63.0,
+                "unit": "km"
+            },
+            "health_points": 1603
+        },
+        "time_code": "05:00:34"
+    },
+    {
+        "screen_index": "153",
+        "frame_index": 1085485,
+        "source_image": "batch_153_frame_1085485.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4760,
+            "distance": {
+                "amount": 66.0,
+                "unit": "km"
+            },
+            "health_points": 848
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4739,
+            "distance": {
+                "amount": 72.0,
+                "unit": "km"
+            },
+            "health_points": 1529
+        },
+        "time_code": "05:01:49"
+    },
+    {
+        "screen_index": "154",
+        "frame_index": 1088985,
+        "source_image": "batch_154_frame_1088985.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4998,
+            "distance": {
+                "amount": 477.0,
+                "unit": "m"
+            },
+            "health_points": 845
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4999,
+            "distance": {
+                "amount": 308.0,
+                "unit": "m"
+            },
+            "health_points": 1529
+        },
+        "time_code": "05:02:47"
+    },
+    {
+        "screen_index": "155",
+        "frame_index": 1091620,
+        "source_image": "batch_155_frame_1091620.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 2738,
+            "distance": {
+                "amount": 813.0,
+                "unit": "km"
+            },
+            "health_points": 845
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 2292,
+            "distance": {
+                "amount": 1053.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "05:03:31"
+    },
+    {
+        "screen_index": "156",
+        "frame_index": 1097050,
+        "source_image": "batch_156_frame_1097050.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4805,
+            "distance": {
+                "amount": 54.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 3536,
+            "distance": {
+                "amount": 468.0,
+                "unit": "km"
+            },
+            "health_points": 3731
+        },
+        "time_code": "05:05:02"
+    },
+    {
+        "screen_index": "157",
+        "frame_index": 1101078,
+        "source_image": "batch_157_frame_1101078.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 848,
+            "distance": {
+                "amount": 1.344,
+                "unit": "km"
+            },
+            "health_points": 4557
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 2291,
+            "distance": {
+                "amount": 1054.0,
+                "unit": "km"
+            },
+            "health_points": 3731
+        },
+        "time_code": "05:06:09"
+    },
+    {
+        "screen_index": "158",
+        "frame_index": 1103884,
+        "source_image": "batch_158_frame_1103884.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4446,
+            "distance": {
+                "amount": 159.0,
+                "unit": "km"
+            },
+            "health_points": 4557
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4362,
+            "distance": {
+                "amount": 184.0,
+                "unit": "km"
+            },
+            "health_points": 3605
+        },
+        "time_code": "05:06:56"
+    },
+    {
+        "screen_index": "159",
+        "frame_index": 1106690,
+        "source_image": "batch_159_frame_1106690.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4570,
+            "distance": {
+                "amount": 121.0,
+                "unit": "km"
+            },
+            "health_points": 4205
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4805,
+            "distance": {
+                "amount": 54.0,
+                "unit": "km"
+            },
+            "health_points": 3605
+        },
+        "time_code": "05:07:43"
+    },
+    {
+        "screen_index": "160",
+        "frame_index": 1109260,
+        "source_image": "batch_160_frame_1109260.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4788,
+            "distance": {
+                "amount": 58.0,
+                "unit": "km"
+            },
+            "health_points": 4205
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 4326,
+            "distance": {
+                "amount": 196.0,
+                "unit": "km"
+            },
+            "health_points": 2681
+        },
+        "time_code": "05:08:26"
+    },
+    {
+        "screen_index": "161",
+        "frame_index": 1112884,
+        "source_image": "batch_161_frame_1112884.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "NOKSI",
+            "round_score": 4302,
+            "distance": {
+                "amount": 203.0,
+                "unit": "km"
+            },
+            "health_points": 4205
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "STREFAN",
+            "round_score": 2628,
+            "distance": {
+                "amount": 868.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "05:09:26"
+    },
+    {
+        "screen_index": "162",
+        "frame_index": 1208306,
+        "source_image": "batch_162_frame_1208306.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4894,
+            "distance": {
+                "amount": 29.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4590,
+            "distance": {
+                "amount": 115.0,
+                "unit": "km"
+            },
+            "health_points": 4696
+        },
+        "time_code": "05:35:58"
+    },
+    {
+        "screen_index": "163",
+        "frame_index": 1212792,
+        "source_image": "batch_163_frame_1212792.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4391,
+            "distance": {
+                "amount": 175.0,
+                "unit": "km"
+            },
+            "health_points": 4606
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4785,
+            "distance": {
+                "amount": 59.0,
+                "unit": "km"
+            },
+            "health_points": 4696
+        },
+        "time_code": "05:37:13"
+    },
+    {
+        "screen_index": "164",
+        "frame_index": 1217326,
+        "source_image": "batch_164_frame_1217326.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4597,
+            "distance": {
+                "amount": 113.0,
+                "unit": "km"
+            },
+            "health_points": 4207
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4863,
+            "distance": {
+                "amount": 38.0,
+                "unit": "km"
+            },
+            "health_points": 4696
+        },
+        "time_code": "05:38:29"
+    },
+    {
+        "screen_index": "165",
+        "frame_index": 1221194,
+        "source_image": "batch_165_frame_1221194.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4245,
+            "distance": {
+                "amount": 221.0,
+                "unit": "km"
+            },
+            "health_points": 3399
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4649,
+            "distance": {
+                "amount": 98.0,
+                "unit": "km"
+            },
+            "health_points": 4696
+        },
+        "time_code": "05:39:33"
+    },
+    {
+        "screen_index": "166",
+        "frame_index": 1224281,
+        "source_image": "batch_166_frame_1224281.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4787,
+            "distance": {
+                "amount": 59.0,
+                "unit": "km"
+            },
+            "health_points": 3399
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4511,
+            "distance": {
+                "amount": 139.0,
+                "unit": "km"
+            },
+            "health_points": 4282
+        },
+        "time_code": "05:40:25"
+    },
+    {
+        "screen_index": "167",
+        "frame_index": 1227309,
+        "source_image": "batch_167_frame_1227309.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4233,
+            "distance": {
+                "amount": 225.0,
+                "unit": "km"
+            },
+            "health_points": 2974
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4403,
+            "distance": {
+                "amount": 172.0,
+                "unit": "km"
+            },
+            "health_points": 4282
+        },
+        "time_code": "05:41:15"
+    },
+    {
+        "screen_index": "168",
+        "frame_index": 1231295,
+        "source_image": "batch_168_frame_1231295.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4871,
+            "distance": {
+                "amount": 35.0,
+                "unit": "km"
+            },
+            "health_points": 2590
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4999,
+            "distance": {
+                "amount": 156.0,
+                "unit": "m"
+            },
+            "health_points": 4282
+        },
+        "time_code": "05:42:22"
+    },
+    {
+        "screen_index": "169",
+        "frame_index": 1235826,
+        "source_image": "batch_169_frame_1235826.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 5000,
+            "distance": {
+                "amount": 22.0,
+                "unit": "m"
+            },
+            "health_points": 2590
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4914,
+            "distance": {
+                "amount": 23.0,
+                "unit": "km"
+            },
+            "health_points": 4110
+        },
+        "time_code": "05:43:37"
+    },
+    {
+        "screen_index": "170",
+        "frame_index": 1240357,
+        "source_image": "batch_170_frame_1240357.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4994,
+            "distance": {
+                "amount": 1.6,
+                "unit": "km"
+            },
+            "health_points": 2583
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4996,
+            "distance": {
+                "amount": 11.0,
+                "unit": "km"
+            },
+            "health_points": 4110
+        },
+        "time_code": "05:44:53"
+    },
+    {
+        "screen_index": "171",
+        "frame_index": 1244551,
+        "source_image": "batch_171_frame_1244551.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4898,
+            "distance": {
+                "amount": 28.0,
+                "unit": "km"
+            },
+            "health_points": 2255
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4980,
+            "distance": {
+                "amount": 5.3,
+                "unit": "km"
+            },
+            "health_points": 4110
+        },
+        "time_code": "05:46:03"
+    },
+    {
+        "screen_index": "172",
+        "frame_index": 1248464,
+        "source_image": "batch_172_frame_1248464.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4999,
+            "distance": {
+                "amount": 163.0,
+                "unit": "m"
+            },
+            "health_points": 2251
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 5000,
+            "distance": {
+                "amount": 9.0,
+                "unit": "m"
+            },
+            "health_points": 4110
+        },
+        "time_code": "05:47:08"
+    },
+    {
+        "screen_index": "173",
+        "frame_index": 1252481,
+        "source_image": "batch_173_frame_1252481.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4988,
+            "distance": {
+                "amount": 3.3,
+                "unit": "km"
+            },
+            "health_points": 2251
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 3834,
+            "distance": {
+                "amount": 358.0,
+                "unit": "km"
+            },
+            "health_points": 1225
+        },
+        "time_code": "05:48:15"
+    },
+    {
+        "screen_index": "174",
+        "frame_index": 1257012,
+        "source_image": "batch_174_frame_1257012.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4988,
+            "distance": {
+                "amount": 3.2,
+                "unit": "km"
+            },
+            "health_points": 2251
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4960,
+            "distance": {
+                "amount": "inf",
+                "unit": "km"
+            },
+            "health_points": 1141
+        },
+        "time_code": "05:49:31"
+    },
+    {
+        "screen_index": "175",
+        "frame_index": 1261543,
+        "source_image": "batch_175_frame_1261543.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4878,
+            "distance": {
+                "amount": 33.0,
+                "unit": "km"
+            },
+            "health_points": 1966
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4935,
+            "distance": {
+                "amount": 18.0,
+                "unit": "km"
+            },
+            "health_points": 1141
+        },
+        "time_code": "05:50:46"
+    },
+    {
+        "screen_index": "176",
+        "frame_index": 1266060,
+        "source_image": "batch_176_frame_1266060.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4874,
+            "distance": {
+                "amount": 34.0,
+                "unit": "km"
+            },
+            "health_points": 1642
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4933,
+            "distance": {
+                "amount": 18.0,
+                "unit": "km"
+            },
+            "health_points": 1141
+        },
+        "time_code": "05:52:02"
+    },
+    {
+        "screen_index": "177",
+        "frame_index": 1269993,
+        "source_image": "batch_177_frame_1269993.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4300,
+            "distance": {
+                "amount": 204.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4996,
+            "distance": {
+                "amount": 11.0,
+                "unit": "km"
+            },
+            "health_points": 1141
+        },
+        "time_code": "05:53:07"
+    },
+    {
+        "screen_index": "178",
+        "frame_index": 1276749,
+        "source_image": "batch_178_frame_1276749.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 5000,
+            "distance": {
+                "amount": 87.0,
+                "unit": "m"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4997,
+            "distance": {
+                "amount": 719.0,
+                "unit": "m"
+            },
+            "health_points": 4997
+        },
+        "time_code": "05:55:00"
+    },
+    {
+        "screen_index": "179",
+        "frame_index": 1278743,
+        "source_image": "batch_179_frame_1278743.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4578,
+            "distance": {
+                "amount": 119.0,
+                "unit": "km"
+            },
+            "health_points": 4991
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4587,
+            "distance": {
+                "amount": 116.0,
+                "unit": "km"
+            },
+            "health_points": 4997
+        },
+        "time_code": "05:55:33"
+    },
+    {
+        "screen_index": "180",
+        "frame_index": 1283148,
+        "source_image": "batch_180_frame_1283148.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4706,
+            "distance": {
+                "amount": 82.0,
+                "unit": "km"
+            },
+            "health_points": 4991
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 2,
+            "distance": {
+                "amount": 10942.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "05:56:47"
+    },
+    {
+        "screen_index": "181",
+        "frame_index": 1287693,
+        "source_image": "batch_181_frame_1287693.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 3557,
+            "distance": {
+                "amount": 460.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 3229,
+            "distance": {
+                "amount": 590.0,
+                "unit": "km"
+            },
+            "health_points": 4672
+        },
+        "time_code": "05:58:03"
+    },
+    {
+        "screen_index": "182",
+        "frame_index": 1290423,
+        "source_image": "batch_182_frame_1290423.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4494,
+            "distance": {
+                "amount": 144.0,
+                "unit": "km"
+            },
+            "health_points": 4502
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4992,
+            "distance": {
+                "amount": 2.1,
+                "unit": "km"
+            },
+            "health_points": 4672
+        },
+        "time_code": "05:58:48"
+    },
+    {
+        "screen_index": "183",
+        "frame_index": 1294246,
+        "source_image": "batch_183_frame_1294246.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 3839,
+            "distance": {
+                "amount": 357.0,
+                "unit": "km"
+            },
+            "health_points": 4502
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 3020,
+            "distance": {
+                "amount": 681.0,
+                "unit": "km"
+            },
+            "health_points": 3444
+        },
+        "time_code": "05:59:52"
+    },
+    {
+        "screen_index": "184",
+        "frame_index": 1297496,
+        "source_image": "batch_184_frame_1297496.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4896,
+            "distance": {
+                "amount": 28.0,
+                "unit": "km"
+            },
+            "health_points": 4502
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 3469,
+            "distance": {
+                "amount": 494.0,
+                "unit": "km"
+            },
+            "health_points": 590
+        },
+        "time_code": "06:00:46"
+    },
+    {
+        "screen_index": "185",
+        "frame_index": 1300361,
+        "source_image": "batch_185_frame_1300361.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 295,
+            "distance": {
+                "amount": 1824.0,
+                "unit": "km"
+            },
+            "health_points": 4004
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 627,
+            "distance": {
+                "amount": 1515.0,
+                "unit": "km"
+            },
+            "health_points": 590
+        },
+        "time_code": "06:01:34"
+    },
+    {
+        "screen_index": "186",
+        "frame_index": 1303181,
+        "source_image": "batch_186_frame_1303181.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4853,
+            "distance": {
+                "amount": 40.0,
+                "unit": "km"
+            },
+            "health_points": 4004
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4645,
+            "distance": {
+                "amount": 99.0,
+                "unit": "km"
+            },
+            "health_points": 70
+        },
+        "time_code": "06:02:21"
+    },
+    {
+        "screen_index": "187",
+        "frame_index": 1305167,
+        "source_image": "batch_187_frame_1305167.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "LENNLI",
+            "round_score": 4800,
+            "distance": {
+                "amount": 55.0,
+                "unit": "km"
+            },
+            "health_points": 4004
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "THE GYMTIMIDATOR",
+            "round_score": 4608,
+            "distance": {
+                "amount": 110.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "06:02:54"
+    },
+    {
+        "screen_index": "188",
+        "frame_index": 1368785,
+        "source_image": "batch_188_frame_1368785.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4961,
+            "distance": {
+                "amount": 11.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4951,
+            "distance": {
+                "amount": 13.0,
+                "unit": "km"
+            },
+            "health_points": 4990
+        },
+        "time_code": "06:20:35"
+    },
+    {
+        "screen_index": "189",
+        "frame_index": 1372268,
+        "source_image": "batch_189_frame_1372268.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4998,
+            "distance": {
+                "amount": 596.0,
+                "unit": "m"
+            },
+            "health_points": 4999
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4999,
+            "distance": {
+                "amount": 349.0,
+                "unit": "m"
+            },
+            "health_points": 4990
+        },
+        "time_code": "06:21:34"
+    },
+    {
+        "screen_index": "190",
+        "frame_index": 1376799,
+        "source_image": "batch_190_frame_1376799.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4679,
+            "distance": {
+                "amount": 90.0,
+                "unit": "km"
+            },
+            "health_points": 4755
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4842,
+            "distance": {
+                "amount": 43.0,
+                "unit": "km"
+            },
+            "health_points": 4990
+        },
+        "time_code": "06:22:49"
+    },
+    {
+        "screen_index": "191",
+        "frame_index": 1381330,
+        "source_image": "batch_191_frame_1381330.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 3703,
+            "distance": {
+                "amount": 405.0,
+                "unit": "km"
+            },
+            "health_points": 3801
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4180,
+            "distance": {
+                "amount": 242.0,
+                "unit": "km"
+            },
+            "health_points": 4990
+        },
+        "time_code": "06:24:05"
+    },
+    {
+        "screen_index": "192",
+        "frame_index": 1385847,
+        "source_image": "batch_192_frame_1385847.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4988,
+            "distance": {
+                "amount": 3.2,
+                "unit": "km"
+            },
+            "health_points": 3801
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4981,
+            "distance": {
+                "amount": 5.2,
+                "unit": "km"
+            },
+            "health_points": 4980
+        },
+        "time_code": "06:25:20"
+    },
+    {
+        "screen_index": "193",
+        "frame_index": 1390378,
+        "source_image": "batch_193_frame_1390378.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4935,
+            "distance": {
+                "amount": 18.0,
+                "unit": "km"
+            },
+            "health_points": 3643
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4998,
+            "distance": {
+                "amount": 463.0,
+                "unit": "m"
+            },
+            "health_points": 4980
+        },
+        "time_code": "06:26:36"
+    },
+    {
+        "screen_index": "194",
+        "frame_index": 1393198,
+        "source_image": "batch_194_frame_1393198.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4692,
+            "distance": {
+                "amount": 86.0,
+                "unit": "km"
+            },
+            "health_points": 3643
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4356,
+            "distance": {
+                "amount": 186.0,
+                "unit": "km"
+            },
+            "health_points": 4308
+        },
+        "time_code": "06:27:23"
+    },
+    {
+        "screen_index": "195",
+        "frame_index": 1395428,
+        "source_image": "batch_195_frame_1395428.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4922,
+            "distance": {
+                "amount": 21.0,
+                "unit": "km"
+            },
+            "health_points": 3631
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4926,
+            "distance": {
+                "amount": 20.0,
+                "unit": "km"
+            },
+            "health_points": 4308
+        },
+        "time_code": "06:28:00"
+    },
+    {
+        "screen_index": "196",
+        "frame_index": 1399959,
+        "source_image": "batch_196_frame_1399959.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4765,
+            "distance": {
+                "amount": 65.0,
+                "unit": "km"
+            },
+            "health_points": 2833
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4993,
+            "distance": {
+                "amount": 1.8,
+                "unit": "km"
+            },
+            "health_points": 4308
+        },
+        "time_code": "06:29:15"
+    },
+    {
+        "screen_index": "197",
+        "frame_index": 1402529,
+        "source_image": "batch_197_frame_1402529.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4997,
+            "distance": {
+                "amount": 695.0,
+                "unit": "m"
+            },
+            "health_points": 2829
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4998,
+            "distance": {
+                "amount": 616.0,
+                "unit": "m"
+            },
+            "health_points": 4308
+        },
+        "time_code": "06:29:58"
+    },
+    {
+        "screen_index": "198",
+        "frame_index": 1404700,
+        "source_image": "batch_198_frame_1404700.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4922,
+            "distance": {
+                "amount": 21.0,
+                "unit": "km"
+            },
+            "health_points": 2829
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 3400,
+            "distance": {
+                "amount": 521.0,
+                "unit": "km"
+            },
+            "health_points": 503
+        },
+        "time_code": "06:30:35"
+    },
+    {
+        "screen_index": "199",
+        "frame_index": 1409217,
+        "source_image": "batch_199_frame_1409217.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 532,
+            "distance": {
+                "amount": 1597.0,
+                "unit": "km"
+            },
+            "health_points": 2829
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 528,
+            "distance": {
+                "amount": 1600.0,
+                "unit": "km"
+            },
+            "health_points": 491
+        },
+        "time_code": "06:31:50"
+    },
+    {
+        "screen_index": "200",
+        "frame_index": 1413622,
+        "source_image": "batch_200_frame_1413622.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 3067,
+            "distance": {
+                "amount": 660.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4517,
+            "distance": {
+                "amount": 137.0,
+                "unit": "km"
+            },
+            "health_points": 491
+        },
+        "time_code": "06:33:03"
+    },
+    {
+        "screen_index": "201",
+        "frame_index": 1418847,
+        "source_image": "batch_201_frame_1418847.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4928,
+            "distance": {
+                "amount": 20.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4621,
+            "distance": {
+                "amount": 106.0,
+                "unit": "km"
+            },
+            "health_points": 4693
+        },
+        "time_code": "06:34:31"
+    },
+    {
+        "screen_index": "202",
+        "frame_index": 1422285,
+        "source_image": "batch_202_frame_1422285.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 4222,
+            "distance": {
+                "amount": 228.0,
+                "unit": "km"
+            },
+            "health_points": 4272
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4950,
+            "distance": {
+                "amount": 13.0,
+                "unit": "km"
+            },
+            "health_points": 4693
+        },
+        "time_code": "06:35:28"
+    },
+    {
+        "screen_index": "203",
+        "frame_index": 1425299,
+        "source_image": "batch_203_frame_1425299.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 3684,
+            "distance": {
+                "amount": 412.0,
+                "unit": "km"
+            },
+            "health_points": 4224
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 3716,
+            "distance": {
+                "amount": 401.0,
+                "unit": "km"
+            },
+            "health_points": 4693
+        },
+        "time_code": "06:36:18"
+    },
+    {
+        "screen_index": "204",
+        "frame_index": 1428569,
+        "source_image": "batch_204_frame_1428569.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MANUELSON",
+            "round_score": 2814,
+            "distance": {
+                "amount": 776.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "MOO",
+            "round_score": 4999,
+            "distance": {
+                "amount": 405.0,
+                "unit": "m"
+            },
+            "health_points": 4693
+        },
+        "time_code": "06:37:13"
+    },
+    {
+        "screen_index": "205",
+        "frame_index": 1516953,
+        "source_image": "batch_205_frame_1516953.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 4993,
+            "distance": {
+                "amount": 2.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4987,
+            "distance": {
+                "amount": 3.5,
+                "unit": "km"
+            },
+            "health_points": 4994
+        },
+        "time_code": "07:01:47"
+    },
+    {
+        "screen_index": "206",
+        "frame_index": 1519812,
+        "source_image": "batch_206_frame_1519812.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 4996,
+            "distance": {
+                "amount": 1.2,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4996,
+            "distance": {
+                "amount": 1.1,
+                "unit": "km"
+            },
+            "health_points": 4994
+        },
+        "time_code": "07:02:35"
+    },
+    {
+        "screen_index": "207",
+        "frame_index": 1523194,
+        "source_image": "batch_207_frame_1523194.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 4934,
+            "distance": {
+                "amount": 18.0,
+                "unit": "km"
+            },
+            "health_points": 4985
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4944,
+            "distance": {
+                "amount": 15.0,
+                "unit": "km"
+            },
+            "health_points": 4994
+        },
+        "time_code": "07:03:31"
+    },
+    {
+        "screen_index": "208",
+        "frame_index": 1527711,
+        "source_image": "batch_208_frame_1527711.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 5000,
+            "distance": {
+                "amount": 32.0,
+                "unit": "m"
+            },
+            "health_points": 4985
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4912,
+            "distance": {
+                "amount": 24.0,
+                "unit": "km"
+            },
+            "health_points": 4818
+        },
+        "time_code": "07:04:47"
+    },
+    {
+        "screen_index": "209",
+        "frame_index": 1532228,
+        "source_image": "batch_209_frame_1532228.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 4208,
+            "distance": {
+                "amount": 233.0,
+                "unit": "km"
+            },
+            "health_points": 4985
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4186,
+            "distance": {
+                "amount": 240.0,
+                "unit": "km"
+            },
+            "health_points": 4763
+        },
+        "time_code": "07:06:02"
+    },
+    {
+        "screen_index": "210",
+        "frame_index": 1536759,
+        "source_image": "batch_210_frame_1536759.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 4284,
+            "distance": {
+                "amount": 209.0,
+                "unit": "km"
+            },
+            "health_points": 4543
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4505,
+            "distance": {
+                "amount": 141.0,
+                "unit": "km"
+            },
+            "health_points": 4763
+        },
+        "time_code": "07:07:18"
+    },
+    {
+        "screen_index": "211",
+        "frame_index": 1539419,
+        "source_image": "batch_211_frame_1539419.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 4715,
+            "distance": {
+                "amount": 79.0,
+                "unit": "km"
+            },
+            "health_points": 4543
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4651,
+            "distance": {
+                "amount": 98.0,
+                "unit": "km"
+            },
+            "health_points": 4571
+        },
+        "time_code": "07:08:02"
+    },
+    {
+        "screen_index": "212",
+        "frame_index": 1542933,
+        "source_image": "batch_212_frame_1542933.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 4824,
+            "distance": {
+                "amount": 48.0,
+                "unit": "km"
+            },
+            "health_points": 4471
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4853,
+            "distance": {
+                "amount": 40.0,
+                "unit": "km"
+            },
+            "health_points": 4571
+        },
+        "time_code": "07:09:01"
+    },
+    {
+        "screen_index": "213",
+        "frame_index": 1547391,
+        "source_image": "batch_213_frame_1547391.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 5000,
+            "distance": {
+                "amount": 16.0,
+                "unit": "m"
+            },
+            "health_points": 4471
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4938,
+            "distance": {
+                "amount": 17.0,
+                "unit": "km"
+            },
+            "health_points": 4354
+        },
+        "time_code": "07:10:15"
+    },
+    {
+        "screen_index": "214",
+        "frame_index": 1549953,
+        "source_image": "batch_214_frame_1549953.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 4981,
+            "distance": {
+                "amount": 5.2,
+                "unit": "km"
+            },
+            "health_points": 4471
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 349,
+            "distance": {
+                "amount": 3595.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "07:10:58"
+    },
+    {
+        "screen_index": "215",
+        "frame_index": 1557094,
+        "source_image": "batch_215_frame_1557094.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 2815,
+            "distance": {
+                "amount": 776.0,
+                "unit": "km"
+            },
+            "health_points": 4087
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 3728,
+            "distance": {
+                "amount": 396.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "07:12:57"
+    },
+    {
+        "screen_index": "216",
+        "frame_index": 1561493,
+        "source_image": "batch_216_frame_1561493.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 4728,
+            "distance": {
+                "amount": 75.0,
+                "unit": "km"
+            },
+            "health_points": 4087
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 2668,
+            "distance": {
+                "amount": 848.0,
+                "unit": "km"
+            },
+            "health_points": 2940
+        },
+        "time_code": "07:14:10"
+    },
+    {
+        "screen_index": "217",
+        "frame_index": 1564507,
+        "source_image": "batch_217_frame_1564507.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 4814,
+            "distance": {
+                "amount": 5.0,
+                "unit": "km"
+            },
+            "health_points": 4087
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4529,
+            "distance": {
+                "amount": 133.0,
+                "unit": "km"
+            },
+            "health_points": 2512
+        },
+        "time_code": "07:15:01"
+    },
+    {
+        "screen_index": "218",
+        "frame_index": 1567639,
+        "source_image": "batch_218_frame_1567639.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 4390,
+            "distance": {
+                "amount": 176.0,
+                "unit": "km"
+            },
+            "health_points": 4087
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 4368,
+            "distance": {
+                "amount": 182.0,
+                "unit": "km"
+            },
+            "health_points": 2468
+        },
+        "time_code": "07:15:53"
+    },
+    {
+        "screen_index": "219",
+        "frame_index": 1572030,
+        "source_image": "batch_219_frame_1572030.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "CLEMENT",
+            "round_score": 4936,
+            "distance": {
+                "amount": 17.0,
+                "unit": "km"
+            },
+            "health_points": 4087
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "ECAL",
+            "round_score": 3912,
+            "distance": {
+                "amount": 331.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "time_code": "07:17:06"
+    },
+    {
+        "screen_index": "220",
+        "frame_index": 1689074,
+        "source_image": "batch_220_frame_1689074.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4664,
+            "distance": {
+                "amount": 94.0,
+                "unit": "km"
+            },
+            "health_points": 3205
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "DEBRE",
+            "round_score": 4675,
+            "distance": {
+                "amount": 91.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "07:49:39"
+    },
+    {
+        "screen_index": "221",
+        "frame_index": 1693591,
+        "source_image": "batch_221_frame_1693591.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4916,
+            "distance": {
+                "amount": 23.0,
+                "unit": "km"
+            },
+            "health_points": 3051
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "DEBRE",
+            "round_score": 4993,
+            "distance": {
+                "amount": 2.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "07:50:54"
+    },
+    {
+        "screen_index": "222",
+        "frame_index": 1697518,
+        "source_image": "batch_222_frame_1697518.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4994,
+            "distance": {
+                "amount": 1.5,
+                "unit": "km"
+            },
+            "health_points": 3051
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "DEBRE",
+            "round_score": 4643,
+            "distance": {
+                "amount": 100.0,
+                "unit": "km"
+            },
+            "health_points": 4649
+        },
+        "time_code": "07:52:00"
+    },
+    {
+        "screen_index": "223",
+        "frame_index": 1700605,
+        "source_image": "batch_223_frame_1700605.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4486,
+            "distance": {
+                "amount": 146.0,
+                "unit": "km"
+            },
+            "health_points": 1779
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "DEBRE",
+            "round_score": 4995,
+            "distance": {
+                "amount": 1.4,
+                "unit": "km"
+            },
+            "health_points": 4649
+        },
+        "time_code": "07:52:51"
+    },
+    {
+        "screen_index": "224",
+        "frame_index": 1705010,
+        "source_image": "batch_224_frame_1705010.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 3847,
+            "distance": {
+                "amount": 354.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "DEBRE",
+            "round_score": 4998,
+            "distance": {
+                "amount": 578.0,
+                "unit": "m"
+            },
+            "health_points": 4649
+        },
+        "time_code": "07:54:05"
+    },
+    {
+        "screen_index": "225",
+        "frame_index": 1709100,
+        "source_image": "batch_225_frame_1709100.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 3397,
+            "distance": {
+                "amount": 522.0,
+                "unit": "km"
+            },
+            "health_points": 3966
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "DEBRE",
+            "round_score": 4431,
+            "distance": {
+                "amount": 163.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "07:55:13"
+    },
+    {
+        "screen_index": "226",
+        "frame_index": 1713544,
+        "source_image": "batch_226_frame_1713544.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 3588,
+            "distance": {
+                "amount": 448.0,
+                "unit": "km"
+            },
+            "health_points": 2726
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "DEBRE",
+            "round_score": 4415,
+            "distance": {
+                "amount": 168.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "07:56:27"
+    },
+    {
+        "screen_index": "227",
+        "frame_index": 1720317,
+        "source_image": "batch_227_frame_1720317.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 3581,
+            "distance": {
+                "amount": 451.0,
+                "unit": "km"
+            },
+            "health_points": 2096
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "DEBRE",
+            "round_score": 3896,
+            "distance": {
+                "amount": 337.0,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "time_code": "07:58:20"
+    },
+    {
+        "screen_index": "228",
+        "frame_index": 1722988,
+        "source_image": "batch_228_frame_1722988.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 4478,
+            "distance": {
+                "amount": 149.0,
+                "unit": "km"
+            },
+            "health_points": 2096
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "DEBRE",
+            "round_score": 3865,
+            "distance": {
+                "amount": 347.0,
+                "unit": "km"
+            },
+            "health_points": 4387
+        },
+        "time_code": "07:59:05"
+    },
+    {
+        "screen_index": "229",
+        "frame_index": 1725182,
+        "source_image": "batch_229_frame_1725182.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "KRATSOOO",
+            "round_score": 3248,
+            "distance": {
+                "amount": 582.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "DEBRE",
+            "round_score": 4690,
+            "distance": {
+                "amount": 86.0,
+                "unit": "km"
+            },
+            "health_points": 4387
+        },
+        "time_code": "07:59:41"
+    },
+    {
+        "screen_index": "230",
+        "frame_index": 1852228,
+        "source_image": "batch_230_frame_1852228.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 5000,
+            "distance": {
+                "amount": 9.0,
+                "unit": "m"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4379,
+            "distance": {
+                "amount": 179.0,
+                "unit": "km"
+            },
+            "health_points": 3350
+        },
+        "time_code": "08:35:01"
+    },
+    {
+        "screen_index": "231",
+        "frame_index": 1856745,
+        "source_image": "batch_231_frame_1856745.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 5000,
+            "distance": {
+                "amount": 15.0,
+                "unit": "m"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4997,
+            "distance": {
+                "amount": 883.0,
+                "unit": "m"
+            },
+            "health_points": 3344
+        },
+        "time_code": "08:36:16"
+    },
+    {
+        "screen_index": "232",
+        "frame_index": 1861262,
+        "source_image": "batch_232_frame_1861262.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 5000,
+            "distance": {
+                "amount": 5.0,
+                "unit": "m"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4995,
+            "distance": {
+                "amount": 1.3,
+                "unit": "km"
+            },
+            "health_points": 3332
+        },
+        "time_code": "08:37:32"
+    },
+    {
+        "screen_index": "233",
+        "frame_index": 1865054,
+        "source_image": "batch_233_frame_1865054.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4997,
+            "distance": {
+                "amount": 677.0,
+                "unit": "m"
+            },
+            "health_points": 4999
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4998,
+            "distance": {
+                "amount": 651.0,
+                "unit": "m"
+            },
+            "health_points": 3332
+        },
+        "time_code": "08:38:35"
+    },
+    {
+        "screen_index": "234",
+        "frame_index": 1867565,
+        "source_image": "batch_234_frame_1867565.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4933,
+            "distance": {
+                "amount": 18.0,
+                "unit": "km"
+            },
+            "health_points": 4999
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4927,
+            "distance": {
+                "amount": 20.0,
+                "unit": "km"
+            },
+            "health_points": 3314
+        },
+        "time_code": "08:39:17"
+    },
+    {
+        "screen_index": "235",
+        "frame_index": 1871405,
+        "source_image": "batch_235_frame_1871405.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4940,
+            "distance": {
+                "amount": 16.0,
+                "unit": "km"
+            },
+            "health_points": 4999
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4760,
+            "distance": {
+                "amount": 66.0,
+                "unit": "km"
+            },
+            "health_points": 2684
+        },
+        "time_code": "08:40:21"
+    },
+    {
+        "screen_index": "236",
+        "frame_index": 1874916,
+        "source_image": "batch_236_frame_1874916.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 5000,
+            "distance": {
+                "amount": 11.0,
+                "unit": "m"
+            },
+            "health_points": 4999
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 5000,
+            "distance": {
+                "amount": 12.0,
+                "unit": "m"
+            },
+            "health_points": 2684
+        },
+        "time_code": "08:41:19"
+    },
+    {
+        "screen_index": "237",
+        "frame_index": 1877090,
+        "source_image": "batch_237_frame_1877090.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 5000,
+            "distance": {
+                "amount": 40.0,
+                "unit": "m"
+            },
+            "health_points": 4999
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4887,
+            "distance": {
+                "amount": 31.0,
+                "unit": "km"
+            },
+            "health_points": 2176
+        },
+        "time_code": "08:41:56"
+    },
+    {
+        "screen_index": "238",
+        "frame_index": 1881621,
+        "source_image": "batch_238_frame_1881621.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 5000,
+            "distance": {
+                "amount": "inf",
+                "unit": "m"
+            },
+            "health_points": 4999
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4935,
+            "distance": {
+                "amount": 18.0,
+                "unit": "km"
+            },
+            "health_points": 1851
+        },
+        "time_code": "08:43:11"
+    },
+    {
+        "screen_index": "239",
+        "frame_index": 1885944,
+        "source_image": "batch_239_frame_1885944.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 5000,
+            "distance": {
+                "amount": 3.0,
+                "unit": "m"
+            },
+            "health_points": 4999
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 5000,
+            "distance": {
+                "amount": 6.0,
+                "unit": "m"
+            },
+            "health_points": 1851
+        },
+        "time_code": "08:44:23"
+    },
+    {
+        "screen_index": "240",
+        "frame_index": 1890461,
+        "source_image": "batch_240_frame_1890461.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4572,
+            "distance": {
+                "amount": 121.0,
+                "unit": "km"
+            },
+            "health_points": 4234
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4878,
+            "distance": {
+                "amount": 33.0,
+                "unit": "km"
+            },
+            "health_points": 1851
+        },
+        "time_code": "08:45:39"
+    },
+    {
+        "screen_index": "241",
+        "frame_index": 1894576,
+        "source_image": "batch_241_frame_1894576.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 5000,
+            "distance": {
+                "amount": "inf",
+                "unit": "m"
+            },
+            "health_points": 4234
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 5000,
+            "distance": {
+                "amount": 16.0,
+                "unit": "m"
+            },
+            "health_points": 1851
+        },
+        "time_code": "08:46:47"
+    },
+    {
+        "screen_index": "242",
+        "frame_index": 1898003,
+        "source_image": "batch_242_frame_1898003.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 5000,
+            "distance": {
+                "amount": 18.0,
+                "unit": "m"
+            },
+            "health_points": 4234
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4899,
+            "distance": {
+                "amount": 27.0,
+                "unit": "km"
+            },
+            "health_points": 1195
+        },
+        "time_code": "08:47:45"
+    },
+    {
+        "screen_index": "243",
+        "frame_index": 1900815,
+        "source_image": "batch_243_frame_1900815.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 3062,
+            "distance": {
+                "amount": 662.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4993,
+            "distance": {
+                "amount": 1.9,
+                "unit": "km"
+            },
+            "health_points": 1195
+        },
+        "time_code": "08:48:31"
+    },
+    {
+        "screen_index": "244",
+        "frame_index": 1905523,
+        "source_image": "batch_244_frame_1905523.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4985,
+            "distance": {
+                "amount": 4.1,
+                "unit": "km"
+            },
+            "health_points": 5000
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4099,
+            "distance": {
+                "amount": 268.0,
+                "unit": "km"
+            },
+            "health_points": 4114
+        },
+        "time_code": "08:49:50"
+    },
+    {
+        "screen_index": "245",
+        "frame_index": 1909315,
+        "source_image": "batch_245_frame_1909315.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 3637,
+            "distance": {
+                "amount": 430.0,
+                "unit": "km"
+            },
+            "health_points": 4648
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 3989,
+            "distance": {
+                "amount": 305.0,
+                "unit": "km"
+            },
+            "health_points": 4114
+        },
+        "time_code": "08:50:53"
+    },
+    {
+        "screen_index": "246",
+        "frame_index": 1910941,
+        "source_image": "batch_246_frame_1910941.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 4330,
+            "distance": {
+                "amount": 194.0,
+                "unit": "km"
+            },
+            "health_points": 4648
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 4219,
+            "distance": {
+                "amount": 229.0,
+                "unit": "km"
+            },
+            "health_points": 3948
+        },
+        "time_code": "08:51:20"
+    },
+    {
+        "screen_index": "247",
+        "frame_index": 1915348,
+        "source_image": "batch_247_frame_1915348.jpg",
+        "left_player": {
+            "match_score": null,
+            "username": "MALFUNCTIONN",
+            "round_score": 27,
+            "distance": {
+                "amount": 7027.0,
+                "unit": "km"
+            },
+            "health_points": 0
+        },
+        "right_player": {
+            "match_score": null,
+            "username": "BULGARIAENJOYER",
+            "round_score": 3654,
+            "distance": {
+                "amount": 423.0,
+                "unit": "km"
+            },
+            "health_points": 3948
+        },
+        "time_code": "08:52:34"
+    }
+]
