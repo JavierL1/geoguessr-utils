@@ -11,16 +11,18 @@ Built to make tournament analysis and post-match review scriptable.
 ## What it does
 
 Geoguessr records the end-of-round score screen as a still image
-embedded in the video. This tool:
+embedded in the video. This tool provides a suite of commands to:
 
-1. Discovers every score screen in a video file and saves the last
-   frame of each one to disk (one JPEG per match).
-2. Extracts structured data from each saved frame:
+1. **Discover** every score screen in a video file and save the last
+   frame of each one to disk.
+2. **Filter** out false positives from the discovered frames.
+3. **Extract** structured data from each saved frame:
    - Match score (0, 1, or 2)
    - Round score (integer)
    - Distance (e.g. 511.0 km)
    - Health points remaining
    - Username (fuzzy-matched against a known roster)
+4. **Annotate** frames to generate golden test fixtures.
 
 The output is a single JSON file, ready for spreadsheets, databases,
 or further analysis.
@@ -28,22 +30,22 @@ or further analysis.
 
 ## How it works
 
-The pipeline has two stages, both exposed as CLI commands:
+The pipeline is broken into modular CLI commands:
 
-    match.mp4  --[gg-discover]-->  batch_001_frame_0012345.jpg
-                                   batch_002_frame_0045678.jpg
-                                   ...
+    match.mp4 --[gg-discover]--> batch_001_frame_0012345.jpg
+                                  batch_002_frame_0045678.jpg
+                                  ...
+                                  (moved to _false_positives/)
 
-    frames/*.jpg  --[gg-extract]-->  results.json
+             --[gg-filter]--->  (clean directory of frames)
 
-Discovery (gg-discover) scans the video at roughly 1 frame per second,
-checking whether the current frame matches a score screen using color
-ratios, text density, and structural checks. When it detects the start
-of a score screen, it switches to a 4x-per-second sampling rate and
-keeps overwriting the last-valid-frame until the screen ends -- at
-which point the fully-rendered final frame is saved.
+             --[gg-extract]-->  results.json
 
-Extraction (gg-extract) reads each saved frame, crops the ROIs for
+**Discovery** (`gg-discover`) scans the video, checking whether the current
+frame matches a score screen. When it detects the start of a score screen, 
+it switches to a faster sampling rate and saves the fully-rendered final frame.
+
+**Extraction** (`gg-extract`) reads each saved frame, crops the ROIs for
 each player's features, and routes each crop through a feature-
 specific OCR and parsing pipeline. Numbers and distances go through
 Tesseract with tuned preprocessing; usernames go through fuzzy
@@ -88,21 +90,24 @@ Then clone the repo and install:
     cd geoguessr-utils
     uv sync
 
-uv sync creates a virtual environment and installs everything from
-pyproject.toml and uv.lock. You do not need to activate anything --
-uv run handles it.
+`uv sync` creates a virtual environment and installs everything from
+`pyproject.toml` and `uv.lock`. You do not need to activate anything --
+`uv run` handles it.
 
 
 ## Quickstart
 
-Run the two pipeline stages in order. Note that `gg-discover` requires
-you to specify which UI layout the video uses (see the Layouts section):
+Run the pipeline stages in order. Note that the commands require
+you to specify which UI layout the video uses:
 
-    # 1. Discover score screens (using the 2026B layout)
-    uv run gg-discover -v match.mp4 -o frames/ --layout 2026b
+    # 1. Discover score screens (using the 2026A layout)
+    uv run gg-discover -v match.mp4 -o frames/ --layout 2026a
 
-    # 2. Extract data from the saved frames
-    uv run gg-extract -i frames/ -o results.json
+    # 2. Filter out false positives (optional, but recommended)
+    uv run gg-filter -i frames/ --layout 2026a
+
+    # 3. Extract data from the saved frames
+    uv run gg-extract -i frames/ -o results.json --layout 2026a
 
 Sample output from results.json:
 
@@ -113,26 +118,41 @@ Sample output from results.json:
         "source_image": "batch_001_frame_0012345.jpg",
         "time_code": "00:03:25",
         "left_player": {
-          "match_score": 1,
-          "username": "BLINKY",
-          "round_score": 4250,
-          "distance": { "amount": 511.0, "unit": "km" },
-          "health_points": 85
+          "match_score": null,
+          "username": "MALFUNCTIONN",
+          "round_score": 27,
+          "distance": { "amount": 7027.0, "unit": "km" },
+          "health_points": 0
         },
         "right_player": {
-          "match_score": 1,
-          "username": "KAPTEN",
-          "round_score": 4100,
-          "distance": { "amount": 480.5, "unit": "km" },
-          "health_points": 92
+          "match_score": null,
+          "username": "BULGARIAENJOYER",
+          "round_score": 3654,
+          "distance": { "amount": 423.0, "unit": "km" },
+          "health_points": 3948
         }
       }
     ]
 
 
+## CLI Commands
+
+All commands are registered via `pyproject.toml` and can be run using `uv run`.
+
+**Pipeline Commands:**
+- `gg-discover`: Finds score screens in a video and extracts frames.
+- `gg-filter`: Classifies a folder of frames and moves false positives to a `_false_positives` subfolder. Optionally renumbers the remaining batches to be contiguous.
+- `gg-extract`: Extracts structured player data from a folder of frames into a JSON file.
+
+**Development & Debugging Commands:**
+- `gg-annotate-frames`: Interactively prompts you to annotate images in a folder, generating `.json` golden files for your tests.
+- `gg-visualize`: Draws the ROIs from a flat `config.json` onto a sample image for debugging.
+- `gg-visualize-layout`: Draws the Layout and Detector ROIs defined in the Python layout class onto a sample image.
+- `gg-select-roi`: A helper tool to interactively select and print ROI coordinates from an image.
+
 ## Configuration
 
-gg-extract takes a -c/--config flag pointing to a config.json file:
+`gg-extract` takes a `-c/--config` flag pointing to a `config.json` file:
 
     {
       "FPS": 59.94006,
@@ -149,24 +169,22 @@ Fields:
     RESOLUTION
         Type: string
         Default: "1080p"
-        Target resolution. Reserved for multi-resolution support;
-        currently only "1080p" layouts exist.
+        Target resolution. Reserved for multi-resolution support.
 
 Everything else -- ROIs, known usernames, detection thresholds --
-lives in the layout, not in the config. See the Layouts section below.
+lives in the layout, not in the config.
 
 
 ## Layouts
 
-Geoguessr periodically updates its broadcast UI. The 2026 World
-Championships UI, for example, looks completely different from the
-standard 2026 UI. To handle this, the project uses a strategy pattern.
+Geoguessr periodically updates its broadcast UI. To handle this, the 
+project uses a strategy pattern.
 
 Every supported UI version has two components:
 1. A `Layout` class (defines where the ROIs are and how to extract text).
-2. A `ScreenDetector` class (defines the OpenCV heuristic used to find the score screen in the video).
+2. A `ScreenDetector` class (defines the OpenCV heuristic used to find the score screen).
 
-These are paired together in a registry inside `discover_screens.py`.
+These are paired together in a central registry (`layout_registry.py`).
 
 Currently supported layouts:
 
@@ -174,9 +192,9 @@ Currently supported layouts:
         The standard Geoguessr UI.
 
     2026a
-        The World Championships Berlin UI.
+        The World Championships Berlin UI (no match score, different health bars).
 
-To discover screens using a specific layout, pass the -l/--layout
-flag to gg-discover:
+To use a specific layout, pass the `-l/--layout` flag to `gg-discover`, 
+`gg-filter`, or `gg-extract`.
 
     uv run gg-discover -v match.mp4 -o frames/ --layout 2026a
